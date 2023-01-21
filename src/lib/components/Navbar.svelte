@@ -48,6 +48,11 @@
     function toggleMenu() {
         visibility = !visibility;
     }
+
+    async function goTo() {
+        await goto('/party');
+        toggleMenu();
+    }
 </script>
 
 
@@ -61,7 +66,7 @@
     </div>
    <div class="text-center text-white text-2xl mt-0 md:mt-0 text-white flex py-2 px-4 md:p-4" style="font-family: 'Cormorant Garamond', serif;">
         <div class="flex-auto text-left md:text-center p-1" >
-            Amandine & Sebastian!
+            Amandine & Sebastian
         </div>
     
         <div class="md:hidden text-right flex-auto text-black text-white">
@@ -75,12 +80,12 @@
         <li class="flex-initial w-32 h-14 bg-green-400 text-center pt-4">RSVP</li>
         <li class="flex-initial w-32 h-14 bg-green-500 text-center pt-4">Questions</li>
         <li class="flex-initial w-32 h-14 bg-green-500 text-center pt-4">Timeline</li>
-        <li class="flex-initial w-32 h-14 bg-green-500 text-center pt-4"><a href="/party">Wedding Party</a></li>
+        <li class="flex-initial w-32 h-14 bg-green-500 text-center pt-4"><a href="/party" on:click={toggleMenu}>Wedding Party</a></li>
     </ul>
 </div>
 
 {#if visibility}
-<div class="md:hidden fixed top-0 bg-black text-white z-1 overflow-auto py-2 px-4 mt-0 text-2xl h-full w-full" style="font-family: 'Cormorant Garamond', serif;">
+<div class="md:hidden fixed top-0 bg-black text-white z-1 overflow-auto py-3 px-4 mt-0 text-2xl h-full w-full" style="font-family: 'Cormorant Garamond', serif;">
     <div class="md:hidden text-right flex-auto text-black text-white">
         <button value="b" class="text-white" on:click={toggleMenu}>X</button>
     </div>
@@ -91,7 +96,7 @@
         <div class="text-center mt-2">RSVP</div>
         <div class="text-center mt-2">Questions</div>
         <div class="text-center mt-2">Timeline</div>
-        <div class="text-center mt-2">Wedding Party</div>
+        <div class="text-center mt-2"><button on:click={goTo}>Wedding Party</div>
       </div>
 
 </div>
