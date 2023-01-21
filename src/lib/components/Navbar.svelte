@@ -49,8 +49,8 @@
         visibility = !visibility;
     }
 
-    async function goTo() {
-        await goto('/party');
+    async function goTo(location: string) {
+        await goto('/' + location);
         toggleMenu();
     }
 </script>
@@ -90,13 +90,13 @@
         <button value="b" class="text-white" on:click={toggleMenu}>X</button>
     </div>
     <div class="container mx-auto content-center pt-20">
-        <div class="text-center mt-2">Date & Location</div>
-        <div class="text-center mt-2">Flights & Hotel</div>
+        <div class="text-center mt-2"><button on:click={() => goTo("location")}>Wedding Party</div>
+            <div class="text-center mt-2">Flights & Hotel</div>
         <div class="text-center mt-2">Visit Bavaria</div>
         <div class="text-center mt-2">RSVP</div>
         <div class="text-center mt-2">Questions</div>
         <div class="text-center mt-2">Timeline</div>
-        <div class="text-center mt-2"><button on:click={goTo}>Wedding Party</div>
+        <div class="text-center mt-2"><button on:click={() => goTo("party")}>Wedding Party</div>
       </div>
 
 </div>
