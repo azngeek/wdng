@@ -1,9 +1,9 @@
 
 	// Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
-import { getAuth, signOut } from 'Firebase/auth';
-import { collection, doc, getFirestore } from "Firebase/firestore/lite";
-import { onAuthStateChanged } from 'Firebase/auth';
+import { getAuth, signOut } from 'firebase/auth';
+import { collection, doc, getFirestore } from "firebase/firestore/lite";
+import { onAuthStateChanged } from 'firebase/auth';
 
 
 const firebaseConfig = {
