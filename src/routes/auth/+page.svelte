@@ -1,7 +1,7 @@
 <script>
 import { Form, TextInput, PasswordInput, Button } from 'carbon-components-svelte';
 import { createEventDispatcher, onMount } from "svelte";
-import { createUserWithEmailAndPassword, updateProfile } from 'Firebase/auth';
+import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { goto } from '$app/navigation';
     
 
