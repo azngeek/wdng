@@ -41,6 +41,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@typeform/embed": "^2.6.1",
 		"firebase": "^9.15.0"
 	}
 }

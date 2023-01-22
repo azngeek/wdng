@@ -77,7 +77,7 @@
         <li class="flex-initial w-32 h-14 bg-green-100 text-center pt-4">Date & Location</li>
         <li class="flex-initial w-32 h-14 bg-green-200 text-center pt-4">Flights & Hotels</li>
         <li class="flex-initial w-32 h-14 bg-green-300 text-center pt-4">Visit Bavaria</li>
-        <li class="flex-initial w-32 h-14 bg-green-400 text-center pt-4">RSVP</li>
+        <li class="flex-initial w-32 h-14 bg-green-400 text-center pt-4"><a href="/rsvp">RSVP</a></li>
         <li class="flex-initial w-32 h-14 bg-green-500 text-center pt-4">Questions</li>
         <li class="flex-initial w-32 h-14 bg-green-500 text-center pt-4">Timeline</li>
         <li class="flex-initial w-32 h-14 bg-green-500 text-center pt-4"><a href="/party" on:click={toggleMenu}>Wedding Party</a></li>
