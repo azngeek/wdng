@@ -28,22 +28,7 @@
 				// An error happened.
 			});
 	}
-
-    let countries = [
-    {value:"us", name: "United States"},
-    {value:"ca", name: "Canada"},
-    {value:"fr", name: "France"},
-  ]
-  let states = [
-    {value:"CA", name:"California"},
-    {value:"TX", name:"Texas"},
-    {value:"WH", name:"Washinghton"},
-    {value:"FL", name:"Florida"},
-    {value:"VG", name:"Virginia"},
-    {value:"GE", name:"Georgia"},
-    {value:"MI", name:"Michigan"}
-  ]
-
+    
   let visibility = false;
     async function toggleMenu() {
         visibility = !visibility;
