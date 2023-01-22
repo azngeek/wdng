@@ -6,17 +6,20 @@
     import { createPopup } from '@typeform/embed'
     import '@typeform/embed/build/css/popup.css'
 
-
+    let popup;
 	onMount(() => {
-		const { toggle } = createPopup('BtSly3JE', {
+		popup = createPopup('BtSly3JE', {
 			medium: 'demo-test',
 			hidden: { foo: 'foo value', bar: 'bar value' }
 		});
-		document.getElementById('rsvp').onclick = function () {
-			toggle();
-		};
 	});
 
+
+    async function rsvp() 
+    {
+        await toggleMenu();
+		popup.toggle();
+    }
 
 	let userLoggedIn: boolean = false;
 	console.log(authStore);
@@ -106,7 +109,7 @@
         <div class="text-center mt-2"><button on:click={() => goTo("location")}>Wedding Party</div>
             <div class="text-center mt-2">Flights & Hotel</div>
         <div class="text-center mt-2">Visit Bavaria</div>
-        <div class="text-center mt-2"><button id="rsvp">RSVP</div>
+        <div class="text-center mt-2"><button on:click={rsvp}>RSVP</div>
             <div class="text-center mt-2">Questions</div>
         <div class="text-center mt-2">Timeline</div>
         <div class="text-center mt-2"><button on:click={() => goTo("party")}>Wedding Party</div>
