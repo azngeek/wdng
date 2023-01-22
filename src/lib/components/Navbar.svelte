@@ -39,10 +39,10 @@
         toggleMenu();
     }
 
-    import { createPopup } from '@typeform/embed'
+    import * as typeformEmbed from '@typeform/embed';
     import '@typeform/embed/build/css/popup.css'
 
-    let { toggle } = createPopup('BtSly3JE', {
+    let { toggle } = typeformEmbed.createPopup('BtSly3JE', {
 			medium: 'demo-test',
 			hidden: { foo: 'foo value', bar: 'bar value' }
 		});
