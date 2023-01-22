@@ -7,8 +7,10 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
+  fontFamily: {
+    sans: ['Graphik', 'sans-serif'],
+    serif: ['Merriweather', 'serif'],
+  },
+  plugins: [],
   darkMode: 'class',
 }
