@@ -1,8 +1,23 @@
 <script lang="ts">
-	import { Button, Navbar, NavBrand, NavHamburger, NavLi, NavUl, Heading, Select, Dropdown, DropdownItem, ChevronDown, SpeedDial, SpeedDialButton } from 'flowbite-svelte';
 	import { goto } from '$app/navigation';
 	import { auth, signOut } from '$lib/Firebase';
 	import authStore from '$lib/authStore';
+    import { onMount } from 'svelte';
+    import { createPopup } from '@typeform/embed'
+    import '@typeform/embed/build/css/popup.css'
+
+
+	const { toggle } = createPopup('BtSly3JE', {
+			medium: 'demo-test',
+			hidden: { foo: 'foo value', bar: 'bar value' }
+		});
+	
+
+    async function rsvp() 
+    {
+        await toggleMenu();
+		toggle();	
+    }
 
 
 	let userLoggedIn: boolean = false;
