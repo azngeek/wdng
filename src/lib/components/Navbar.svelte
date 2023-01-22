@@ -38,6 +38,7 @@
         await goto('/' + location);
         toggleMenu();
     }
+    /*
 
     import * as typeformEmbed from '@typeform/embed';
     import '@typeform/embed/build/css/popup.css'
@@ -51,7 +52,7 @@
     {
         await toggleMenu();
 		toggle();	
-    }
+    }*/
 </script>
 
 
