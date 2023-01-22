@@ -25,14 +25,9 @@
 </script>
 
 <div class="container max-w-screen-lg h-screen mx-auto">
-
 	<Navbar />
-
- 
-
-	<div class="mt-20 px-10 bg-gradient-to-r h-screen">
-
-           <slot />
+	<div class="mt-20 h-screen bg-red-200 p-4">
+        <slot />
 	</div>
 </div>
 
