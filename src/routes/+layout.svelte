@@ -24,13 +24,13 @@
 	onMount(() => {});
 </script>
 
-<div class="container max-w-screen-lg h-screen mx-auto bg-cyan-500">
+<div class="container max-w-screen-lg h-screen mx-auto">
 
 	<Navbar />
 
  
 
-	<div class="mt-20 px-10 bg-gradient-to-r h-screen from-cyan-500 to-blue-500">
+	<div class="mt-20 px-10 bg-gradient-to-r h-screen">
 
            <slot />
 	</div>
