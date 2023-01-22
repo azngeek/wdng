@@ -1,4 +1,5 @@
 <script>
+    // https://developer.typeform.com/embed/modal/
 	import { onMount } from 'svelte';
     import { createPopup } from '@typeform/embed'
     import '@typeform/embed/build/css/popup.css'
