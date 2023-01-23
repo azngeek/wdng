@@ -26,7 +26,8 @@
 
 <div class="container max-w-screen-lg h-screen mx-auto">
 	<Navbar />
-	<div class="mt-20 h-screen bg-red-200 p-4">
+    <!-- bg-red-200-->
+	<div class="mt-20 p-4">
         <slot />
 	</div>
 </div>

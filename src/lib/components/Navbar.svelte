@@ -86,7 +86,9 @@
 		</div>
 		<div class="md:mt-6">
 			<ul class="hidden md:flex justify-center h-12 font-serif">
-				<li class="flex-initial w-32 h-12 text-center pt-4">Date & Location</li>
+				<li class="flex-initial w-32 h-12 text-center pt-4">
+                    <a href="/location">Date & Location</a>
+                </li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">Flights & Hotels</li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">Visit Bavaria</li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">
