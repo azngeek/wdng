@@ -115,14 +115,14 @@
 			<div class="text-center mt-2">
 				<button on:click={() => goTo('location')}>Wedding Party</button>
 			</div>
+            <div class="text-center mt-2">
+				<button on:click={() => goTo('location')}>Location (done)</button>
+			</div>
 			<div class="text-center mt-2">Flights & Hotel</div>
 			<div class="text-center mt-2">Visit Bavaria</div>
-			<div class="text-center mt-2"><button on:click={rsvp}>RSVP</button></div>
+			<div class="text-center mt-2"><button on:click={rsvp}>RSVP (done)</button></div>
 			<div class="text-center mt-2">Questions</div>
 			<div class="text-center mt-2">Timeline</div>
-			<div class="text-center mt-2">
-				<button on:click={() => goTo('party')}>Wedding Party</button>
-			</div>
 		</div>
 	</div>
 {/if}
