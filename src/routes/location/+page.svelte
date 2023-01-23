@@ -56,6 +56,11 @@
 	destination for visitors interested in the history and culture of the region.
 </p>
 
+<p class="mt-4">
+    <a href="https://www.wasmeier.de/">https://www.wasmeier.de</a>
+
+</p>
+
 <div id="map" class="max-w-screen-lg h-96 mt-4 z-0" />
 
 <style>
