@@ -57,8 +57,10 @@
 </p>
 
 <p class="mt-4">
-    <a href="https://www.wasmeier.de/">https://www.wasmeier.de</a>
-
+    🔗  <a href="https://www.wasmeier.de/">https://www.wasmeier.de</a>
+</p>
+<p>
+    📌  <a href="https://www.google.com/maps/place/Markus+Wasmeier+Freilichtmuseum/@47.7063905,11.8763645,17z/data=!4m6!3m5!1s0x479d8a1c761e2605:0xb1f5d76bb5022bc8!8m2!3d47.7063478!4d11.8763233!10e1?hl=en-CH">How to get there</a>
 </p>
 
 <div id="map" class="max-w-screen-lg h-96 mt-4 z-0" />
