@@ -44,8 +44,7 @@
 
 
 
-<div id="map" class="max-w-screen-lg h-64 mt-4" />
+<div id="map" class="max-w-screen-lg h-64 mt-4 z-0" />
 
 <style>
-
-  </style>
+</style>
