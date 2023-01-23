@@ -37,7 +37,7 @@
 	});
 </script>
 
-<h1 class="text-l">Location</h1>
+<h1 class="text-xl"> // Location</h1>
 <h2 class="text-2xl mt-4">Markus Wasmeier Freilichtmuseum</h2>
 <h3 class="text-2xl font-light">August 12, 2023</h3>
 
