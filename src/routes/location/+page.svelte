@@ -12,10 +12,21 @@
 			version: 'weekly'
         });
 
+        var grayStyles = [
+        {
+          featureType: "all",
+          stylers: [
+            { saturation: -10 },
+            { lightness: 50 }
+          ]
+        },
+      ];
+
 		loader.load().then(() => {
 			map = new google.maps.Map(document.getElementById('map') as HTMLElement, {
 				center: { lat: -34.397, lng: 150.644 },
-				zoom: 8
+				zoom: 8,
+                styles: grayStyles
 			});
 		});
 	});
