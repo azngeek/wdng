@@ -1,35 +1,32 @@
-<script>
-    import { Timeline, TimelineItem, Button } from 'flowbite-svelte';
-  </script>
+<div class="container mx-auto">
+    <div class="p-10 ">
+      <div class="border-2-2 border-opacity-20 border" style="left: 50%"></div>
+
+      <!-- right timeline -->
+      <div class="mb-8 md:flex md:justify-between items-center ">
+        <div class="order-1 md:w-5/12"></div>
+        <div class="hidden md:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+          <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+        </div>
+        <div class="order-1 bg-green-100 shadow-xl md:w-5/12 px-6 py-4">
+          <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
+          <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+      </div>
   
-  <Timeline>
-    <TimelineItem title="Application UI code in Tailwind CSS" date="February 2022">
-      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-        Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar,
-        and pre-order E-commerce & Marketing pages.
-      </p>
-      <Button color="alternative"
-        >Learn more<svg
-          class="ml-2 w-3 h-3"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          ><path
-            fill-rule="evenodd"
-            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-            clip-rule="evenodd" /></svg
-        ></Button>
-    </TimelineItem>
-    <TimelineItem title="Application UI code in Tailwind CSS" date="March 2022">
-      <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-        All of the pages and components are first designed in Figma and we keep a parity between the
-        two versions even as we update the project.
-      </p>
-    </TimelineItem>
-    <TimelineItem title="Application UI code in Tailwind CSS" date="April 2022">
-      <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-        Get started with dozens of web components and interactive elements built on top of Tailwind
-        CSS.
-      </p>
-    </TimelineItem>
-  </Timeline>
+      <!-- left timeline -->
+      <div class="mb-8 md:flex justify-between flex-row-reverse items-center w-full">
+        <div class="order-1 md:w-5/12"></div>
+        <div class="hidden md:flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+          <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+        </div>
+        <div class="order-1 bg-red-100 shadow-xl md:w-5/12 px-6 py-4">
+          <h3 class="mb-3 font-bold text-black text-xl">Lorem Ipsum</h3>
+          <p class="text-sm font-medium leading-snug tracking-wide text-black text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+      </div>
+      
+          
+
+    </div>
+  </div>
