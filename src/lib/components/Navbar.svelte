@@ -108,7 +108,7 @@
 
 {#if visibility}
 	<div
-		class="md:hidden fixed top-0 bg-green-200 text-black z-10 overflow-auto text-2xl h-full w-full"
+		class="md:hidden fixed top-0 bg-green-200 text-black z-10 overflow-auto text-2xl h-full w-full font-serif"
 	>
 		<div class="md:hidden text-right flex-auto text-white mr-6 p-2">
 			<button value="b" class="text-white" on:click={toggleMenu}>X</button>

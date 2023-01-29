@@ -11,6 +11,8 @@ module.exports = {
     sans: ['Graphik', 'sans-serif'],
     serif: ['Merriweather', 'serif'],
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
   darkMode: 'class',
 }

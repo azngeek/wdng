@@ -24,10 +24,10 @@
 	onMount(() => {});
 </script>
 
-<div class="container max-w-screen-lg h-screen mx-auto">
+<div class="container max-w-screen-lg mx-auto">
 	<Navbar />
     <!-- bg-red-200-->
-	<div class="mt-20 p-4">
+	<div class="mt-20 p-4 font-serif max-w-screen-lg">
         <slot />
 	</div>
 </div>

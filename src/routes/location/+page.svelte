@@ -37,15 +37,14 @@
 	});
 </script>
 
-<h1 class="text-xl"> // Location</h1>
-<h2 class="text-2xl mt-4">Markus Wasmeier Freilichtmuseum</h2>
-<h3 class="text-2xl font-light">August 12, 2023</h3>
+<h1 class="text-xl"> // Date & Location</h1>
 
-<p class="font-normal italic mt-4">
-	Model Bavarian village with themed tours, costumed craftsmen & a biergarten with mountain views
+<p class="text-2xl italic font-semibold text-center text-gray-900 mt-8">
+	After 5 years of living together, we have finally decided to take the next step! To celebrate the beginning of our new married life together, we invite you to meet us
+	on 12 August 2023 in Schliersee at the Markus Wasmeier Freilichtmuseum starting at 14:00 
 </p>
 
-<p class="font-normal mt-4">
+<p class="font-normal mt-8">
 	The Markus Wasmeier Freilicht Museum is an open-air museum located in Schliersee, Germany. The
 	museum is dedicated to showcasing the traditional culture and lifestyle of the region, as well as
 	the history of skiing and winter sports. Visitors can explore the museum's collection of over 50
