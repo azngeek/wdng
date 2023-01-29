@@ -8,9 +8,11 @@
 	room as soon as possible directly with the hotels. Thank you :)
 </p>
 
+<p class="font-normal mt-8">Also please research on desktop for best experience.</p>
+
 <div class="grid grid-cols-8">
-    <div id="map" class="h-96 col-span-5 mt-4 overflow-auto" />
-    <div class="h-96 col-span-3 mt-4 bg-red-200 p-4 overflow-auto">
+    <div id="map" class="h-96 col-span-8 md:col-span-5 mt-4 overflow-auto" />
+    <div class="h-96 col-span-8 md:col-span-3 mt-4 bg-red-200 p-4 overflow-auto">
         {#each hotels as hotel}
         <div class="mt-4">
             <h3 class="text-normal font-bold">{hotel.title}</h3>    
