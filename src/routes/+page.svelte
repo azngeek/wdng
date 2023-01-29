@@ -11,7 +11,6 @@
     </div>
 	</div>
 
-
 	<p class="text-xl md:text-center text-gray-900">
 		After 5 years of living together, we have finally decided to take the next step! To celebrate
 		the beginning of our new married life together, we invite you to meet us on <span
