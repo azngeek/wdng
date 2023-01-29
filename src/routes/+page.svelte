@@ -1,4 +1,17 @@
 <div class="prose max-w-screen-lg h-screen font-serif">
+
+  <div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
+    <img 
+    class="md:w-4/5 mx-auto"
+    src="https://images.pexels.com/photos/1483024/pexels-photo-1483024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    alt="ss"
+    />
+    <div class="md:w-4/5 mx-auto text-right italic mt-0">
+      <span>Wonderful sunset at Schliersee 2020</span>
+    </div>
+	</div>
+
+
 	<p class="text-xl md:text-center text-gray-900">
 		After 5 years of living together, we have finally decided to take the next step! To celebrate
 		the beginning of our new married life together, we invite you to meet us on <span
@@ -13,20 +26,16 @@
 		"The ceremony will begin at <span class="font-semibold">2:30 PM</span> and will be followed by
 		celebrations until late. We hope to share this joyous occasion with you. Please let us know if
 		you will be attending by <span class="font-semibold">February 28th</span> by completing the
-		following form: <span class="font-semibold"><a on:click={rsvp}>RSVP</a></span>."
+		following form: <span class="font-semibold">
+      <a on:click={rsvp} class="font-bold text-2xl text-green-400 no-underline">RSVP</a>
+    </span>."
 	</p>
 
-	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
-    <img 
-    class="md:w-4/5 mx-auto"
-    src="https://images.pexels.com/photos/1483024/pexels-photo-1483024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-    alt="ss"
-    />
-    <div class="md:w-4/5 mx-auto text-right italic mt-0">
-      <span>Wonderful sunset at Schliersee 2020</span>
-    </div>
-	</div>
+
 </div>
+
+
+<div class="xs:mt-4 xs:h-32 md:h-0"></div>
 
 
 <script lang="ts">

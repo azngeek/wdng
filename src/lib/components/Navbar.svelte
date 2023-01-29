@@ -92,7 +92,7 @@
 				<li class="flex-initial w-32 h-12 text-center pt-4">Flights & Hotels</li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">Visit Bavaria</li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">
-					<a href="#" on:click={rsvp}>RSVP</a>
+					<a href="#" on:click={rsvp} class="text-green-400 font-bold">RSVP</a>
 				</li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">Questions</li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">
