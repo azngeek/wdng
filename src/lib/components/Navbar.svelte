@@ -89,7 +89,9 @@
 				<li class="flex-initial w-32 h-12 text-center pt-4">
                     <a href="/location">Date & Location</a>
                 </li>
-				<li class="flex-initial w-32 h-12 text-center pt-4">Flights & Hotels</li>
+				<li class="flex-initial w-32 h-12 text-center pt-4">
+					<a href="/travel">Travel & Hotels</a>
+				</li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">Visit Bavaria</li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">
 					<a href="#" on:click={rsvp} class="text-green-400 font-bold">RSVP</a>
@@ -118,9 +120,11 @@
 				<button on:click={() => goTo('location')}>Wedding Party</button>
 			</div>
             <div class="text-center mt-2">
-				<button on:click={() => goTo('location')}>Location (done)</button>
+				
 			</div>
-			<div class="text-center mt-2">Flights & Hotel</div>
+			<div class="text-center mt-2">
+				<button on:click={() => goTo('travel')}>Travel & Hotels</button>
+			</div>
 			<div class="text-center mt-2">Visit Bavaria</div>
 			<div class="text-center mt-2"><button on:click={rsvp}>RSVP (done)</button></div>
 			<div class="text-center mt-2">Questions</div>
