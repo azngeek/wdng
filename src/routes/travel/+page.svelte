@@ -8,19 +8,22 @@
 	room as soon as possible directly with the hotels. Thank you :)
 </p>
 
-<div class="mt-8 py-4">
-    {#each hotels as hotel}
-    <div class="mt-4">
-        <h3 class="text-normal font-bold">{hotel.title}</h3>    
-        <h3 class="text-normal">{hotel.url}</h3>    
-        <h3 class="text-normal">{hotel.address}</h3>    
+<div class="grid grid-cols-8">
+    <div id="map" class="h-96 col-span-5 mt-4 overflow-auto" />
+    <div class="h-96 col-span-3 mt-4 bg-red-200 p-4 overflow-auto">
+        {#each hotels as hotel}
+        <div class="mt-4">
+            <h3 class="text-normal font-bold">{hotel.title}</h3>    
+            <h3 class="text-normal">{hotel.url}</h3>    
+            <h3 class="text-normal">{hotel.address}</h3>    
+        </div>
+    {/each}
     </div>
-{/each}
-
 </div>
 
 
-<script>
+
+<script lang="ts">
     const hotels = [
         {
             'title' : 'Gästehaus Hubertus Hotel Garni ',
@@ -93,4 +96,41 @@
             'address' : 'Seeweg 7 / 83727 Spitzingsee'
         }
     ]
+
+    import { onMount } from 'svelte';
+	import { Loader } from '@googlemaps/js-api-loader';
+
+	onMount(() => {
+		let map: google.maps.Map;
+
+		const loader = new Loader({
+			apiKey: 'AIzaSyDTmK_YB6FWixG9BczztAcaV6WtNZgVatY',
+			version: 'weekly'
+		});
+
+		var grayStyles = [
+			{
+				featureType: 'all',
+				stylers: [{ saturation: -20 }, { lightness: 30 }]
+			}
+		];
+
+		loader.load().then(() => {
+			const loc = { lat: 47.7063905, lng: 11.8763645 };
+
+			map = new google.maps.Map(document.getElementById('map') as HTMLElement, {
+				center: loc,
+				zoom: 12,
+				styles: grayStyles
+			});
+
+			const image =
+				'./wedding-couple.png';
+			const beachMarker = new google.maps.Marker({
+				position: loc,
+				map,
+				icon: image
+			});
+		});
+	});
 </script>
