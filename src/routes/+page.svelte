@@ -6,8 +6,8 @@
     src="https://images.pexels.com/photos/1483024/pexels-photo-1483024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     alt="ss"
     />
-    <div class="md:w-4/5 mx-auto text-right italic mt-0">
-      <span>Wonderful sunset at Schliersee 2020</span>
+    <div class="md:w-4/5 mx-auto text-right text-xs italic mt-0">
+      <span>"Wonderful sunset at Schliersee 2020"</span>
     </div>
 	</div>
 
@@ -23,12 +23,12 @@
 	</p>
 
 	<p class="text-xl md:text-center text-gray-900 mt-4">
-		"The ceremony will begin at <span class="font-semibold">2:30 PM</span> and will be followed by
+		The ceremony will begin at <span class="font-semibold">2:30 PM</span> and will be followed by
 		celebrations until late. We hope to share this joyous occasion with you. Please let us know if
 		you will be attending by <span class="font-semibold">February 28th</span> by completing the
 		following form: <span class="font-semibold">
       <a on:click={rsvp} class="font-bold text-2xl text-green-400 no-underline">RSVP</a>
-    </span>."
+    </span>.
 	</p>
 
 
