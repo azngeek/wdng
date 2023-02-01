@@ -1,4 +1,6 @@
 <script lang="ts">
+
+	
 	import { goto } from '$app/navigation';
 	import { auth, signOut } from '$lib/Firebase';
 	import authStore from '$lib/authStore';
@@ -153,4 +155,6 @@
 		justify-content: space-evenly;
 		align-items: center;
 	}
+	
+
 </style>

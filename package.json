@@ -43,6 +43,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/bodoni-moda": "^4.5.10",
 		"@googlemaps/js-api-loader": "^1.15.1",
 		"@typeform/embed": "^2.6.1",
 		"firebase": "^9.15.0"

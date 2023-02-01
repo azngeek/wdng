@@ -1,4 +1,4 @@
-<div class="prose max-w-screen-lg h-screen font-serif">
+<div class="prose max-w-screen-lg font-serif">
 
   <div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
     <img 
