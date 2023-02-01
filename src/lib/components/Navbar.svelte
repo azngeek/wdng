@@ -71,7 +71,7 @@
     }*/
 </script>
 
-<div class="md:mt-6 sticky top-0 bg-white  ">
+<div class="md:mt-6 sticky md:relative top-0 bg-white  ">
 	<div class="hidden md:flex flex-row-reverse h-6">
 		<select name="cars" id="cars">
 			<option value="de">DE</option>

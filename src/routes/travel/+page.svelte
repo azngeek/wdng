@@ -12,7 +12,7 @@
 
 <div class="grid grid-cols-8">
     <div id="map" class="h-96 md:h-screen col-span-8 md:col-span-5 mt-4 overflow-auto"  />
-    <div class="h-96  md:h-screen col-span-8 md:col-span-3 mt-4 bg-red-200 p-4 overflow-auto z-10"  >
+    <div class="h-96  md:h-screen col-span-8 md:col-span-3 bg-white mt-4 p-4 overflow-auto z-10"  >
         {#each hotels as hotel, index}
         <div class="mt-4">
             <img src="{hotel.image}" class="w-54" />
@@ -27,6 +27,18 @@
     {/each}
     </div>
 </div>
+
+<p class="font-normal mt-8">
+	Here is an overview of hotels located near the ceremony venue. Due to high season, we were
+	unfortunately not able to reserve rooms for our guests. We therefore encourage you to book your
+	room as soon as possible directly with the hotels. Thank you :)
+</p>
+
+<p class="font-normal mt-8">
+	Here is an overview of hotels located near the ceremony venue. Due to high season, we were
+	unfortunately not able to reserve rooms for our guests. We therefore encourage you to book your
+	room as soon as possible directly with the hotels. Thank you :)
+</p>
 
 
 
@@ -81,61 +93,56 @@
             'loc': { lat: 47.638597, lng: 12.0632335 },
             'address' : 'Bahnhofstrasse 4/ 83730 Fischbachau –Stauden'
         },
-          // hier
         {
             'title' : 'Gästehaus Sigrid',
             'url': 'www.gaestehaus-sigrid.de',
-            'image': 'https://lh5.googleusercontent.com/p/AF1QipN7A1tsAk2haxJPJxKslNwk2xd80W-umpROtMdf=w408-h271-k-no',
-            'gmapsLink': 'https://goo.gl/maps/vHBfS9wNyBP8dDsy6',
-            'loc': { lat: 47.6745466, lng: 12.0103703 },
+            'image': 'https://lh5.googleusercontent.com/p/AF1QipM1vG3IiU_KHV7gigz-I4vsL5lRKZY5hnj1dP8U=w408-h408-k-no',
+            'gmapsLink': 'https://goo.gl/maps/1dJ8xiEWtAeBR3Bn9',
+            'loc': { lat: 47.734718, lng: 11.8566212 },
             'address' : 'Breitenbach 10/ 83727 Schliersee'
         },
+             
         {
             'title' : 'Hotel Karma Bavaria',
             'url': 'www.karmagroup.com',
-            'image': 'https://lh5.googleusercontent.com/p/AF1QipN7A1tsAk2haxJPJxKslNwk2xd80W-umpROtMdf=w408-h271-k-no',
-            'gmapsLink': 'https://goo.gl/maps/vHBfS9wNyBP8dDsy6',
-            'loc': { lat: 47.6745466, lng: 12.0103703 },
+            'image': 'https://lh3.googleusercontent.com/gps-proxy/ALm4wwkC2eqxp0ZdzXALdnQ8cc-STYUGkmOmkSmL26nMl_KzmMCJMvQzZAUTOU4BJ4ZTTVpWLGwoRVXQ4KmuApBwoPTC9oRnyqD9Y-PMUXGtz-ygyLm92UWLPdp_5Dw_hvrMGawHMaeQHxXIfeBNchvRzc1g--jCdH_zmD2RspznKKjWEcRTJ143bizrUw=w408-h275-k-no',
+            'gmapsLink': 'https://goo.gl/maps/SMHbBdRuCTBuaPHB9',
+            'loc': { lat: 47.7433015, lng: 11.8494716 },
             'address' : 'Kirchbichlweg 18/ 83727 Schliersee'
         },
         {
             'title' : 'Hotel Bayerischer Hof',
             'url': 'www.bayerischerhof-online.de',
-            'image': 'https://lh5.googleusercontent.com/p/AF1QipN7A1tsAk2haxJPJxKslNwk2xd80W-umpROtMdf=w408-h271-k-no',
-            'gmapsLink': 'https://goo.gl/maps/vHBfS9wNyBP8dDsy6',
-            'loc': { lat: 47.6745466, lng: 12.0103703 },
+            'image': 'https://lh5.googleusercontent.com/p/AF1QipPlCEeAP0KoQipYPsfGizVWQGXLY4u5tTmAOGTS=w408-h272-k-no',
+            'gmapsLink': 'https://goo.gl/maps/BxuDzfjuQbYsXUFWA',
+            'loc': { lat: 47.7940219, lng: 11.8385109 },
             'address' : 'Oskar-von-Miller-Str. 2-4/ 83714 Miesbach'
         },
+
         {
             'title' : 'Gasthof Hocheck',
             'url': '',
-            'image': 'https://lh5.googleusercontent.com/p/AF1QipN7A1tsAk2haxJPJxKslNwk2xd80W-umpROtMdf=w408-h271-k-no',
-            'gmapsLink': 'https://goo.gl/maps/vHBfS9wNyBP8dDsy6',
-            'loc': { lat: 47.6745466, lng: 12.0103703 },
+            'image': 'https://lh5.googleusercontent.com/p/AF1QipNiHbbD99QvCScRQAoi5c0fsEV88H-DkI9TLDo=w426-h240-k-no',
+            'gmapsLink': 'https://goo.gl/maps/PHZ7k81ZLRtdPZ8V9',
+            'loc': { lat: 47.7724242, lng: 11.9752632 },
             'address' : 'Hocheckstrasse 1 / 83730 Fischbachau'
         },
+
         {
             'title' : 'Seehotel Schlierseer Hof',
             'url': '',
-            'image': 'https://lh5.googleusercontent.com/p/AF1QipN7A1tsAk2haxJPJxKslNwk2xd80W-umpROtMdf=w408-h271-k-no',
-            'gmapsLink': 'https://goo.gl/maps/vHBfS9wNyBP8dDsy6',
-            'loc': { lat: 47.6745466, lng: 12.0103703 },
+            'image': 'https://lh5.googleusercontent.com/p/AF1QipOLj1Ay_RvvrqJ7WLaAaQdd1KfIk_30YNhUvBP4=w425-h240-k-no',
+            'gmapsLink': 'https://goo.gl/maps/HV55KY799fTC6ykd8',
+            'loc': { lat: 47.7317105, lng: 11.8635859 },
             'address' : 'Seestrasse 21/ 83727 Schliersee'
         },
-        {
-            'title' : 'Ferienwohnung Klepp',
-            'url': 'www.ferienwohnung-klepp.de',
-            'image': 'https://lh5.googleusercontent.com/p/AF1QipN7A1tsAk2haxJPJxKslNwk2xd80W-umpROtMdf=w408-h271-k-no',
-            'gmapsLink': 'https://goo.gl/maps/vHBfS9wNyBP8dDsy6',
-            'loc': { lat: 47.6745466, lng: 12.0103703 },
-            'address' : 'Krugalmweg 12/ 83730 Fischbachau'
-        },
+
         {
             'title' : 'Arabella Alpenhotel am Spitzingsee',
             'url': 'www.arabella-alpenhotel.com',
-            'image': 'https://lh5.googleusercontent.com/p/AF1QipN7A1tsAk2haxJPJxKslNwk2xd80W-umpROtMdf=w408-h271-k-no',
-            'gmapsLink': 'https://goo.gl/maps/vHBfS9wNyBP8dDsy6',
-            'loc': { lat: 47.6745466, lng: 12.0103703 },
+            'image': 'https://media-cdn.holidaycheck.com/w_768,h_432,c_fill,q_auto,f_auto/ugc/images/6c274d5d-0f50-4ceb-8ef9-a99328f71862',
+            'gmapsLink': 'https://goo.gl/maps/taAwM8XugWTquX1U9',
+            'loc': { lat: 47.6623269, lng: 11.8854182 },
             'address' : 'Seeweg 7 / 83727 Spitzingsee'
         }
     ]
@@ -183,21 +190,7 @@
     '<div id="content">' +
     '<div id="siteNotice">' +
     "</div>" +
-    '<h1 id="firstHeading" class="firstHeading">Uluru</h1>' +
-    '<div id="bodyContent">' +
-    "<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large " +
-    "sandstone rock formation in the southern part of the " +
-    "Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) " +
-    "south west of the nearest large town, Alice Springs; 450&#160;km " +
-    "(280&#160;mi) by road. Kata Tjuta and Uluru are the two major " +
-    "features of the Uluru - Kata Tjuta National Park. Uluru is " +
-    "sacred to the Pitjantjatjara and Yankunytjatjara, the " +
-    "Aboriginal people of the area. It has many springs, waterholes, " +
-    "rock caves and ancient paintings. Uluru is listed as a World " +
-    "Heritage Site.</p>" +
-    '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">' +
-    "https://en.wikipedia.org/w/index.php?title=Uluru</a> " +
-    "(last visited June 22, 2009).</p>" +
+    "blbla" +
     "</div>" +
     "</div>";
 
