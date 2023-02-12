@@ -3,12 +3,12 @@
 <h2 class="text-xl mt-4">Travel Information</h2>
 
 <p class="font-normal mt-8">
-	Here is an overview of hotels located near the ceremony venue. Due to high season, we were
-	unfortunately not able to reserve rooms for our guests. We therefore encourage you to book your
-	room as soon as possible directly with the hotels. Thank you :)
+	{$t('travel_hotels.paragraph_1')}
 </p>
 
-<p class="font-normal mt-8">Also please research on desktop for best experience.</p>
+<p class="font-normal mt-8">
+	{$t('travel_hotels.paragraph_2')}
+</p>
 
 <div class="grid grid-cols-8">
     <div id="map" class="h-96 md:h-screen col-span-8 md:col-span-5 mt-4 overflow-auto"  />
@@ -149,6 +149,7 @@
 
     import { onMount } from 'svelte';
 	import { Loader } from '@googlemaps/js-api-loader';
+    import {t} from '$lib/i18n';
 
     var markerDict = new Map();
 

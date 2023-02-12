@@ -1,0 +1,13 @@
+{
+  "page_title": "Page title",
+  "sign_in": "Sign in",
+  "sign_up": "Sign up",
+  "welcome": "Willkommen",
+  "menu_date_location": "Datum und Ort",
+  "menu_travel_hotels": "Anreise und Hotels",
+  "menu_visit_bavaria": "Sehenswürdigkeiten",
+  "travel_hotels": {
+    "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
+    "paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
+  }
+}

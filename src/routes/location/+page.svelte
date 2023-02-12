@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { Loader } from '@googlemaps/js-api-loader';
+	import {t, locale} from '$lib/i18n';
 
 	onMount(() => {
 		let map: google.maps.Map;

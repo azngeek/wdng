@@ -1,7 +1,7 @@
 <script lang="ts">
 
 	
-	import { goto } from '$app/navigation';
+	import { goto, invalidate } from '$app/navigation';
 	import { auth, signOut } from '$lib/Firebase';
 	import authStore from '$lib/authStore';
 	import { onMount } from 'svelte';
@@ -69,14 +69,35 @@
         await toggleMenu();
 		toggle();	
     }*/
+
+	let lang = 'de';
+
+	// https://github.com/kaisermann/svelte-i18n/blob/main/docs/Svelte-Kit.md
+	import {t, locale} from '$lib/i18n';
+
+
+	onMount(() => {
+		lang = localStorage.getItem('svelte-i18n-locale')
+		locale.set(lang)
+	})
+
+	const onChangeLanguage = () => {
+		localStorage.setItem('svelte-i18n-locale', lang);
+		locale.set(lang)
+
+		//location.reload()
+
+	}
+//	
 </script>
+
+
 
 <div class="md:mt-6 sticky md:relative top-0 bg-white  ">
 	<div class="hidden md:flex flex-row-reverse h-6">
-		<select name="cars" id="cars">
-			<option value="de">DE</option>
-			<option value="fr">FR</option>
-			<option value="en">EN</option>
+		<select bind:value={lang} on:change={onChangeLanguage} name="cars" id="cars">
+			<option value="{'de'}">DE</option>
+			<option value="{'fr'}">FR</option>
 		</select>
 	</div>
 	<div class="divide-y divide-dotted">
@@ -89,12 +110,12 @@
 		<div class="md:mt-6">
 			<ul class="hidden md:flex justify-center h-12 font-serif">
 				<li class="flex-initial w-32 h-12 text-center pt-4">
-                    <a href="/location">Date & Location</a>
+                    <a href="/location">{$t('menu_date_location')}</a>
                 </li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">
-					<a href="/travel">Travel & Hotels</a>
+					<a href="/travel">{$t('menu_travel_hotels')}</a>
 				</li>
-				<li class="flex-initial w-32 h-12 text-center pt-4">Visit Bavaria</li>
+				<li class="flex-initial w-32 h-12 text-center pt-4">{$t('menu_visit_bavaria')}</li>
 				<li class="flex-initial w-32 h-12 text-center pt-4">
 					<a href="#" on:click={rsvp} class="text-green-400 font-bold">RSVP</a>
 				</li>
