@@ -18,6 +18,7 @@
 	});
 
 	import {t, locale, isLoading} from '$lib/i18n';
+	import Divider from '$lib/components/Divider.svelte';
 
 	onMount(() => {
 		locale.set(localStorage.getItem('svelte-i18n-locale'))
@@ -30,9 +31,16 @@
 {#if !$isLoading}
 <div class="container max-w-screen-lg mx-auto">
   <Navbar />
+  
+  <Divider />
+
   <!-- bg-red-200-->
   <div class="mt-10 p-4 font-serif max-w-screen-lg">
 	  <slot />
   </div>
+
+  <!-- Footer -->
+  <Divider />
+
 </div>
 {/if}

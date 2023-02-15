@@ -1,3 +1,7 @@
+<script>
+	import Divider from "$lib/components/Divider.svelte";
+
+</script>
 <article class="prose max-w-screen-lg mt-8">
 	<h2>Frequently asked questions</h2>
 
