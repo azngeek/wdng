@@ -117,7 +117,9 @@
 				<li class="flex-initial w-40 h-12 text-center pt-4">
 					<a href="#" on:click={rsvp} class="text-green-400 font-bold">RSVP</a>
 				</li>
-				<li class="flex-initial w-40 h-12 text-center pt-4">{$t('menu_travel_questions')}</li>
+				<li class="flex-initial w-40 h-12 text-center pt-4">
+					<a href="/faq">{$t('menu_travel_questions')}</a>
+				</li>
 				<li class="flex-initial w-40 h-12 text-center pt-4">
 					<a href="/agenda">{$t('menu_timeline')}</a>
                 </li>

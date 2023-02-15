@@ -39,6 +39,7 @@
 
 	import { createPopup } from '@typeform/embed';
 	import '@typeform/embed/build/css/popup.css';
+	import Divider from '$lib/components/Divider.svelte';
 
 	let popup;
 
@@ -52,63 +53,70 @@
 	async function rsvp() {
 		popup.toggle();
 	}
+
+
 </script>
 
 <!--
 <h1 class="text-xl"> // Date & Location</h1>
 -->
 
-<p class="text-xl  text-gray-900 mt-8">
-	{@html $t('date_location.hero_1')}	
-</p>
 
-<p class="text-xl  text-gray-900 mt-8">	
-	{@html $t('date_location.hero_2')}
-</p>
+<article class="prose max-w-screen-lg mt-8">
+	<h1>You are invited!</h1>
 
-<p class="text-xl  text-gray-900 mt-8">	
-	{@html $t('date_location.hero_3')}
-	<a on:click={rsvp} class="font-bold text-2xl text-green-400 no-underline">RSVP</a>
-</p>
+	<p>
+		{@html $t('date_location.hero_1')}	
+		{@html $t('date_location.hero_2')}
+	</p>
 
+	<p>{@html $t('date_location.hero_3')} <a on:click={rsvp} class="font-bold"> RSVP </a></p>
 
-<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
-    <img 
-    class="md:w-4/5 mx-auto"
-    src="/costa_rica.jpeg"
-    alt="ss"
-    />
-    <div class="md:w-4/5 mx-auto text-right text-xs italic mt-0">
-      <span>... somewhere in Costa Rica 🌴🐒👰🤵💍📷🌺</span>
-    </div>
-</div>
-
-
-<p class="text-xl mt-8">
-	{$t('date_location.header')}	
-</p>
-
-<p class="text-xl mt-8">
-	{$t('date_location.paragraph_1')}	
-</p>
-
-
-<p class="text-xl mt-8">
-	{$t('date_location.paragraph_2')}
-
-	
-</p>
-
-<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
-	<img 
-	class="md:w-4/5 mx-auto"
-	src="https://image.jimcdn.com/app/cms/image/transf/none/path/s35f0f87a1bc2fc4f/image/i0173b804adcb12dd/version/1543997791/image.jpg"
-	alt="ss"
-	/>
-	<div class="md:w-4/5 mx-auto text-right text-xs italic mt-0">
-		<span>"Wasmeier Museum"</span>
+	<div class="prose prose-img max-w-screen-lg mt-8">
+		<div class="flex flex-row-reverse">
+			<div class="w-48 h-48">	<img 
+				class=""
+				src="/as.png"
+				alt="ss"
+				/>
+				</div>
+		</div>
 	</div>
-</div>	
+
+	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
+		<img 
+		class="md:w-2/5 mx-auto"
+		src="/costa_rica.jpeg"
+		alt="ss"
+		/>
+		<div class="md:w-4/5 mx-auto text-right text-xs italic mt-0">
+		  <span>... somewhere in Costa Rica 🌴🐒👰🤵💍📷🌺</span>
+		</div>
+	</div>
+
+	<p>{@html $t('date_location.header')}</p>
+	<p>{$t('date_location.paragraph_1')}</p>
+	<p>{$t('date_location.paragraph_2')}</p>
+
+
+	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
+		<img 
+		class="md:w-4/5 mx-auto"
+		src="https://image.jimcdn.com/app/cms/image/transf/none/path/s35f0f87a1bc2fc4f/image/i0173b804adcb12dd/version/1543997791/image.jpg"
+		alt="ss"
+		/>
+		<div class="md:w-4/5 mx-auto text-right text-xs italic mt-0">
+			<span>"Wasmeier Museum"</span>
+		</div>
+	</div>	
+
+</article>
+
+
+
+
+
+
 
 <p class="mt-4">
     🔗  <a href="https://www.wasmeier.de/">https://www.wasmeier.de</a>
