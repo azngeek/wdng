@@ -1,7 +1,7 @@
 <script lang="ts">
 
 	
-	import { goto, invalidate } from '$app/navigation';
+	import { goto } from '$app/navigation';
 	import { auth, signOut } from '$lib/Firebase';
 	import authStore from '$lib/authStore';
 	import { onMount } from 'svelte';
@@ -91,7 +91,7 @@
 //	
 </script>
 
-<div class="md:mt-6 sticky md:relative top-0 bg-white  ">
+<div class="md:mt-6 sticky md:relative top-0 bg-white">
 	<div class="hidden md:flex flex-row-reverse h-6">
 		<select bind:value={lang} on:change={onChangeLanguage} name="cars" id="cars">
 			<option value="{'de'}">DE</option>
@@ -100,13 +100,13 @@
 	</div>
 	<div class="divide-y divide-dotted">
 		<div class="text-center text-2xl lg:text-3xl h-12 flex">
-			<div class="flex-auto text-left md:text-center font-serif p-2">Amandine & Sebastian</div>
+			<div class="flex-auto text-left md:text-center nice-font p-2">Amandine & Sebastian</div>
 			<div class="md:hidden text-right flex-auto mr-6 py-1">
 				<button on:click={toggleMenu}>☰</button>
 			</div>
 		</div>
 		<div class="md:mt-6 pl-4">
-			<ul class="hidden md:flex justify-center h-12 font-serif">
+			<ul class="hidden md:flex justify-center h-12 nice-font">
 				<li class="flex w-40 h-12 text-center pt-4">
                     <a href="/location">{$t('menu_date_location')}</a>
                 </li>
@@ -133,7 +133,7 @@
 
 {#if visibility}
 	<div
-		class="md:hidden fixed top-0 bg-green-200 text-black z-10 overflow-auto text-2xl h-full w-full font-serif"
+		class="md:hidden fixed top-0 bg-green-200 text-black z-10 overflow-auto text-2xl h-full w-full nice-font"
 	>
 		<div class="md:hidden text-right flex-auto text-white mr-6 p-2">
 			<button value="b" class="text-white" on:click={toggleMenu}>X</button>

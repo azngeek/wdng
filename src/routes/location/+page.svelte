@@ -63,7 +63,7 @@
 
 
 <article class="prose max-w-screen-lg mt-8">
-	<h1>You are invited!</h1>
+	<h1 class="nice-font">You are invited!</h1>
 
 	<p>
 		{@html $t('date_location.hero_1')}	
