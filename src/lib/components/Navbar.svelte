@@ -118,7 +118,7 @@
 					<a href="#" on:click={rsvp} class="font-bold">RSVP</a>
 				</li>
 				<li class="flex-initial w-40 h-12 text-center pt-4">
-					<a href="/faq">{$t('menu_travel_questions')}</a>
+					<a href="/faq">{$t('menu_faq')}</a>
 				</li>
 				<li class="flex-initial w-40 h-12 text-center pt-4">
 					<a href="/agenda">{$t('menu_timeline')}</a>
@@ -133,27 +133,36 @@
 
 {#if visibility}
 	<div
-		class="md:hidden fixed top-0 bg-green-200 text-black z-10 overflow-auto text-2xl h-full w-full nice-font"
+		class="md:hidden fixed top-0 bg-green-200 text-black z-10 overflow-auto text-3xl h-full w-full nice-font"
 	>
 		<div class="md:hidden text-right flex-auto text-white mr-6 p-2">
 			<button value="b" class="text-white" on:click={toggleMenu}>X</button>
 		</div>
 		<div class="container mx-auto content-center pt-20 py-3 px-4">
-			<div class="text-center mt-2">
-				<button on:click={() => goTo('location')}>Wedding Party</button>
+
+			<div class="text-center mt-8">
+				<button on:click={() => goTo('location')}>{$t('menu_date_location')}</button>
 			</div>
-            <div class="text-center mt-2">
-				
+
+			<div class="text-center mt-8">
+				<button on:click={() => goTo('travel')}>{$t('menu_travel_hotels')}</button>
 			</div>
-			<div class="text-center mt-2">
-				<button on:click={() => goTo('travel')}>Travel & Hotels</button>
+
+			<div class="text-center mt-8">
+				<button on:click={rsvp}>RSVP</button>
 			</div>
-			<div class="text-center mt-2">Visit Bavaria</div>
-			<div class="text-center mt-2"><button on:click={rsvp}>RSVP (done)</button></div>
-			<div class="text-center mt-2">Questions</div>
-			<div class="text-center mt-2">
-                <button on:click={() => goTo('agenda')}>Timeline (done)</button>
-            </div>
+
+			<div class="text-center mt-8">
+				<button on:click={() => goTo('travel')}>{$t('menu_faq')}</button>
+			</div>
+
+			<div class="text-center mt-8">
+				<button on:click={() => goTo('travel')}>{$t('menu_timeline')}</button>
+			</div>
+
+			<div class="text-center mt-8">
+				<button on:click={() => goTo('travel')}>{$t('menu_party')}</button>
+			</div>
 		</div>
 	</div>
 {/if}
