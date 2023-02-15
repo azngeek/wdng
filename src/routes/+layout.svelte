@@ -25,6 +25,16 @@
 		</div>
 
 		<!-- Footer -->
-		<Divider />
+		<footer class="p-4 bg-white mt-8 md:flex md:items-center md:justify-between md:p-6">
+			<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+				Made with ♥ for Amandine & Sebastian
+			</span>
+			<ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+				<li>
+					<a href="#" class="hover:underline">Questions? Contact us @ 1234 1231 5456 123</a>
+				</li>
+			</ul>
+		</footer>
+
 	</div>
 {/if}
