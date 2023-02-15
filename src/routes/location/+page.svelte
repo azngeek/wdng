@@ -58,60 +58,57 @@
 <h1 class="text-xl"> // Date & Location</h1>
 -->
 
-<p class="text-xl md:text-center text-gray-900 mt-8">
+<p class="text-xl  text-gray-900 mt-8">
 	{@html $t('date_location.hero_1')}	
 </p>
 
-<p class="text-xl md:text-center text-gray-900 mt-8">	
+<p class="text-xl  text-gray-900 mt-8">	
 	{@html $t('date_location.hero_2')}
 </p>
 
-<p class="text-xl md:text-center text-gray-900 mt-8">	
-	{$t('date_location.hero_3')}
+<p class="text-xl  text-gray-900 mt-8">	
+	{@html $t('date_location.hero_3')}
+	<a on:click={rsvp} class="font-bold text-2xl text-green-400 no-underline">RSVP</a>
 </p>
 
-<p class="font-normal mt-8">
-	{$t('date_location.header')}	
-</p>
-
-<p class="font-normal mt-8">
-	{$t('date_location.paragraph_1')}	
-</p>
-
-<p class="font-normal mt-8">
-	{$t('date_location.paragraph_2')}	
-</p>
 
 <div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
     <img 
     class="md:w-4/5 mx-auto"
-    src="https://images.pexels.com/photos/1483024/pexels-photo-1483024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    src="/costa_rica.jpeg"
     alt="ss"
     />
     <div class="md:w-4/5 mx-auto text-right text-xs italic mt-0">
-      <span>"Wonderful sunset at Schliersee 2020"</span>
+      <span>... somewhere in Costa Rica 🌴🐒👰🤵💍📷🌺</span>
     </div>
 </div>
 
-<p class="text-xl md:text-center text-gray-900">
-	After 5 years of living together, we have finally decided to take the next step! To celebrate
-	the beginning of our new married life together, we invite you to meet us on <span
-		class="font-semibold">12 August 2023</span
-	>
-	in <span class="font-semibold">Schliersee</span> at the
-	<span class="font-semibold">Markus Wasmeier Freilichtmuseum</span>
-	starting at <span class="font-semibold">14:00</span>
+
+<p class="text-xl mt-8">
+	{$t('date_location.header')}	
 </p>
 
-	<p class="text-xl md:text-center text-gray-900 mt-4">
-		The ceremony will begin at <span class="font-semibold">2:30 PM</span> and will be followed by
-		celebrations until late. We hope to share this joyous occasion with you. Please let us know if
-		you will be attending by <span class="font-semibold">February 28th</span> by completing the
-		following form: <span class="font-semibold">
-      <a on:click={rsvp} class="font-bold text-2xl text-green-400 no-underline">RSVP</a>
-    </span>.
-	</p>
+<p class="text-xl mt-8">
+	{$t('date_location.paragraph_1')}	
+</p>
 
+
+<p class="text-xl mt-8">
+	{$t('date_location.paragraph_2')}
+
+	
+</p>
+
+<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
+	<img 
+	class="md:w-4/5 mx-auto"
+	src="https://image.jimcdn.com/app/cms/image/transf/none/path/s35f0f87a1bc2fc4f/image/i0173b804adcb12dd/version/1543997791/image.jpg"
+	alt="ss"
+	/>
+	<div class="md:w-4/5 mx-auto text-right text-xs italic mt-0">
+		<span>"Wasmeier Museum"</span>
+	</div>
+</div>	
 
 <p class="mt-4">
     🔗  <a href="https://www.wasmeier.de/">https://www.wasmeier.de</a>
