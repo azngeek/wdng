@@ -91,8 +91,6 @@
 //	
 </script>
 
-
-
 <div class="md:mt-6 sticky md:relative top-0 bg-white  ">
 	<div class="hidden md:flex flex-row-reverse h-6">
 		<select bind:value={lang} on:change={onChangeLanguage} name="cars" id="cars">
@@ -107,24 +105,24 @@
 				<button on:click={toggleMenu}>☰</button>
 			</div>
 		</div>
-		<div class="md:mt-6">
+		<div class="md:mt-6 pl-4">
 			<ul class="hidden md:flex justify-center h-12 font-serif">
-				<li class="flex-initial w-32 h-12 text-center pt-4">
+				<li class="flex w-40 h-12 text-center pt-4">
                     <a href="/location">{$t('menu_date_location')}</a>
                 </li>
-				<li class="flex-initial w-32 h-12 text-center pt-4">
+				<li class="flex w-40 h-12 text-center pt-4">
 					<a href="/travel">{$t('menu_travel_hotels')}</a>
 				</li>
-				<li class="flex-initial w-32 h-12 text-center pt-4">{$t('menu_visit_bavaria')}</li>
-				<li class="flex-initial w-32 h-12 text-center pt-4">
+				<li class="flex-initial w-40 h-12 text-center pt-4">{$t('menu_visit_bavaria')}</li>
+				<li class="flex-initial w-40 h-12 text-center pt-4">
 					<a href="#" on:click={rsvp} class="text-green-400 font-bold">RSVP</a>
 				</li>
-				<li class="flex-initial w-32 h-12 text-center pt-4">Questions</li>
-				<li class="flex-initial w-32 h-12 text-center pt-4">
-					<a href="/agenda">Timeline</a>
+				<li class="flex-initial w-40 h-12 text-center pt-4">{$t('menu_travel_questions')}</li>
+				<li class="flex-initial w-40 h-12 text-center pt-4">
+					<a href="/agenda">{$t('menu_timeline')}</a>
                 </li>
-				<li class="flex-initial w-32 h-12 text-center pt-4">
-					<a href="/party">Wedding Party</a>
+				<li class="flex-initial w-40 h-12 text-center pt-4">
+					<a href="/party">{$t('menu_party')}</a>
 				</li>
 			</ul>
 		</div>
