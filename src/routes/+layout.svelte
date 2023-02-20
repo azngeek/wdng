@@ -31,7 +31,7 @@
 			</span>
 			<ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
 				<li>
-					<a href="#" class="hover:underline">Questions? Contact us @ 1234 1231 5456 123</a>
+					<a href="#" class="hover:underline">Questions? Contact us @ +49 173 79 05 873 or </a>
 				</li>
 			</ul>
 		</footer>
