@@ -60,46 +60,13 @@
 <!--
 <h1 class="text-xl"> // Date & Location</h1>
 -->
-
-
 <article class="prose max-w-screen-lg mt-8">
+
+	<h2>Location</h2>
 	
-	<h3>You are invited!</h3>
-
-	<p>
-		{@html $t('date_location.hero_1')}	
-		{@html $t('date_location.hero_2')}
-	</p>
-
-	<p>{@html $t('date_location.hero_3')} <a on:click={rsvp} class="font-bold"> RSVP </a></p>
-
-
-	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
-		<img 
-		class="md:w-2/5 mx-auto"
-		src="/costa_rica.jpeg"
-		alt="ss"
-		/>
-		<div class="md:w-4/5 mx-auto text-right text-xs mt-0">
-		  <span></span>
-		</div>
-	</div>
-
-	<div class="prose prose-img max-w-screen-lg mt-8">
-		<div class="flex flex-row-reverse">
-			<div class="w-48 h-48">	<img 
-				class=""
-				src="/as.png"
-				alt="ss"
-				/>
-				</div>
-		</div>
-	</div>
-
 	<h3>{@html $t('date_location.header')}</h3>
 	<p>{$t('date_location.paragraph_1')}</p>
 	<p>{$t('date_location.paragraph_2')}</p>
-
 
 	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
 		<img 
