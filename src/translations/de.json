@@ -18,6 +18,40 @@
 		"paragraph_1": "Und ja! Ihre Deutschkenntnisse sind immer noch sehr gut :) Die Hochzeit wird in einem Freilichtmuseum stattfinden.",
 		"paragraph_2": "Inspiriert von einem Freilichtmuseum in Lillehammer, Norwegen, hat der ehemalige deutsche Skifahrer Markus Wasmeier mehrere historische Gebäude im bayerischen Oberland nachgebaut und so einen hübschen bayerischen Weiler aus dem 18. Hier werden wir von 14:00 Uhr bis in die Nacht hinein feiern!"
 	},
+  "bavaria": {
+    "intro": {
+      "header": "Ein Besuch in Bayern",
+      "paragraph_1": "Ein Besuch in Bayern: Was Ihr nicht verpassen solltet",
+      "paragraph_2": "Wenn Ihr noch nicht die Gelegenheit hattet, Bayern zu entdecken, dann wirds aber Zeit und vielleicht ist unsere Hochzeit die Gelegenheit dazu ein paar Tage in Bayern zu verbringen! Wir möchten Euch ein paar Sehenswürdigkeiten der Region vorschlagen."
+    },
+    "tegernsee" : {
+      "title": "Der Tegernsee und seine zahlreichen Wandermöglichkeiten",
+      "paragraph_1" : "Der Tegernsee, der nur 15 Minuten vom Ort der Trauung (Schliersee) entfernt ist, liegt im Mangfallgebirge in den südlichen bayerischen Alpen, was ihn zu einem beliebten Ausflugsort in Bayern macht. Amandine und ich wandern gerne in den umliegenden Bergen, von denen aus man einen herrlichen Blick auf den See hat. Eine Wanderung z.B. auf den Wallberg ist komplett zu Fuß machbar - oder auch mit der Seilbahn. Diesen Gipfel zu erreichen ist also auch am Tag nach einer Hochzeitsparty möglich ;-)"        
+    },
+    "chiemsee" : {
+      "title": "Der Chiemsee und sein Schloss",
+      "paragraph_1" : "Der Chiemsee bzw. “Das Bayerische Meer” ist der größte See Bayerns, liegt 45 Minuten vom Ort der Trauung entfernt und ist zudem der Heimatort von Sebis Vater. Im See liegen mehrere Inseln, auf der Fraueninsel gibts ein Kloster und gleich mehrere Restaurants die frischen Fisch anbieten, auf der Herreninsel liegt Schloss Herrenchiemsee, das letzte von König Ludwig dem II. von Bayern errichtete Schloss.",
+      "paragraph_2" : "Inspiriert vom Schloss Versaille, ist es als eines der schönsten Schlösser Bayerns bekannt und war übrigens genauso teuer wie Schloss Linderhof und Schloss Neuschwanstein zusammen und das, obwohl es nie fertig gebaut wurde! Mit den Alpen im Hintergrund ist dieser See also die perfekte Wahl, um den  Charme der bayerischen Seen genießen und gleichzeitig die kulturellen Reichtümer der Region entdecken zu können."
+    },
+    "linderhof" : {
+      "title": "Schloss Linderhof und die Abtei Ettal",
+      "paragraph_1" : "1,5 Stunden von der Hochzeitslocation entfernt, steht das kleinste der 3 Schlösser, die König Ludwig der II. von Bayern erbaut hat. Es verzaubert mit seinem hübschen Schlosspark und der wunderschönen Venusgrotte, die derzeit aber leider renoviert wird. In der Nähe des Schlosses befindet sich die Abtei Ettal, eine der schönsten in der Region.",
+      "paragraph_2" : "Wer einen Ausflug zur Zugspitze macht und einen halben Tag übrig hat kann auf dem Weg in beim Schloss halten."
+   },
+    "koenigssee" : {
+      "title": "Der Königssee - unser erster gemeinsamer Ausflug",
+      "paragraph_1" : "Wer nicht unbedingt ein Schloss braucht und genug Zeit hat, um eine abgelegenere Region Bayerns zu erkunden, fährt am besten an den Königssee! Der liegt gute eineinhalb Stunden vom Ort der Trauung entfernt die Fahrt lohnt sich aber, denn es ist sicherlich einer der schönsten Seen Europas und er war auch das sorgfältig von mir ausgesuchte Ziel unseres ersten gemeinsamen Ausflugs, nachdem Amandine und ich uns 2017 kennengelernt haben. Er liegt inmitten eines großen Naturschutzgebietes und ist von den wunderschönen Berchtesgadener Bergen umgeben. Ein Highlight ist die Bootsfahrt zur kleinen Wallfahrtskirche St. Bartholomä mit schönem Biergarten und Wandermöglichkeit zu einer Eiskapelle."
+    },
+    "neuschwanstein" : {
+      "title": "Neuschwanstein, ein märchenhaftes Schloss",
+      "paragraph_1" : "Neuschwanstein ist das meistbesuchte Schloss Deutschlands und liegt ebenfalls 1,5 Stunden vom Ort der Trauung entfernt. Extravagante Architektur, eine atemberaubende Bergkulisse und eine wahrlich königliche Inneneinrichtung - es diente nicht nur als Vorlage für das Schloss von Walt Disney sondern stand auch auf der Wunschliste von Michael Jackson, dem aber das nötige Kleingeld für den Bau einer Kopie fehlte.",
+      "paragraph_2": "Einen Besuch auf Neuschwanstein muss man wegen der vielen, vielen, vielen Touristen lange im Voraus planen. Einfach hinfahren und Tickets für eine Besichtigung kaufen ist normalerweise nicht möglich. Daher ist diese Sehenswürdigkeit nur bedingt zu empfehlen."
+    },
+    "zugspitze" : {
+      "title": "Zugspitze, der höchste Berg Deutschlands.",
+      "paragraph_1" : "Die Zugspitze, 1h45min vom Ort der Trauung entfernt, ist mit knappen 3000m der höchste Berg Deutschlands. Wer fit genug ist kann versuchen unsere Aufstiegszeit von gut 11 Stunden für knappe 22km (durch die Partnachklamm, Reintal und Zugspitzplatt) zu unterbieten. Deutlich entspannter als an einem Stück geht das aber auch mit einer Übernachtung auf der Knorrhütte (Anmeldung für die Übernachtung zwingend notwendig) oder auch in wenigen Minuten mit der Zugspitz Seilbahn. Das Panorama ist atemberaubend und die Besteigung der Zugspitze ist ein großes Abenteuer das ordentlich geplant sein will. Besser und familienfreundlicher für einen Tagesausflug wäre ein Besuch der Partnachklamm und dann die Seilbahnfahrt auf den Gipfel der Zugspitze mit Restaurant."
+    }
+  },
   "best_man_maid_of_honor": {
     "intro": "Ici,nos témoins sont à l'honneur.",
     "maid": {

@@ -75,7 +75,9 @@
 				<li class="flex w-40 h-12 text-center pt-4">
 					<a href="/travel">{$t('menu_travel_hotels')}</a>
 				</li>
-				<li class="flex-initial w-40 h-12 text-center pt-4">{$t('menu_visit_bavaria')}</li>
+				<li class="flex-initial w-40 h-12 text-center pt-4">
+					<a href="/bavaria">{$t('menu_visit_bavaria')}</a>
+				</li>
 				<li class="flex-initial w-40 h-12 text-center pt-4">
 					<a href="#" on:click={rsvp} class="font-bold">RSVP</a>
 				</li>
@@ -108,6 +110,10 @@
 
 			<div class="text-center mt-8">
 				<button on:click={() => goTo('travel')}>{$t('menu_travel_hotels')}</button>
+			</div>
+
+			<div class="text-center mt-8">
+				<button on:click={() => goTo('bavaria')}>{$t('menu_visit_bavaria')}</button>
 			</div>
 
 			<div class="text-center mt-8">

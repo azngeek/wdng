@@ -14,6 +14,36 @@
     "hero_2" : "Afin de célébrer le début de notre nouvelle vie de couple marié, nous vous donnons rendez-vous le <span>ss</span>12 août 2023 à Schliersee au Markus Wasmeier Freilichtmuseum à partir de 14:00. La cérémonie d’engagement démarrera à 14:30 et sera suivie par des festivités.",
     "hero_3" : "En espérant partager ce moment de joie avec vous, merci de nous faire part de votre présence d’ici le 15 mars en complétant le formulaire suivant:"
 },
+"bavaria": {
+  "intro": {
+    "header": "Visiter la Bavière",
+    "paragraph_1": "Visiter la Bavière: les incontournables ",
+    "paragraph_2": "Si vous n'avez pas encore eu l'occasion de découvrir la Bavière, c'est le moment ! Découvrez ici les plus beaux sites touristiques de cette région."
+  },
+  "tegernsee" : {
+    "title": "Le lac de Tegernsee et ses nombreuses randonnées",
+    "paragraph_1" : "À seulement 15 min du lieu de cérémonie (Schliersee), le lac de Tegernsee possède un cadre et des villes magnifiques qui en font un lieu très apprécié des bavarois. Sebi et moi aimons particulièrement les randonnées dans le massif du Wallberg offrant des vues splendides sur le lac et les montagnes alentour. Un téléphérique permet d'accéder au sommet où vous attendra un restaurant avec une grande terrasse surplombant le lac. Ceux qui ne souhaitent pas marcher pourront ainsi également profiter de ce panorama de toute beauté."
+  },
+  "chiemsee" : {
+    "title": "Le lac de Chiemsee et son château",
+    "paragraph_1" : "À 45 min du lieu de cérémonie, le lac de Chiemsee est le plus grand lac de Bavière et le troisième plus important d'Allemagne (avec ses 80 km2 de superficie). C’est aussi le lieu d’origine de Wolfgang, le père de Sebi :)",
+    "paragraph_2" : "Surnommé 'la mer bavaroise', le lac de Chiemsee possède plusieurs îles, dont une sur laquelle est édifié le palais de Herrenchiemsee. Inspiré du château de Versaille, il est connu pour être l’un des plus beaux châteaux de Bavière. Avec les Alpes en arrière-plan, ce lac est donc le choix parfait si vous désirez profiter des charmes des lacs bavarois tout en découvrant les richesses culturelles de la région."
+  },
+  "linderhof" : {
+    "title": "Le château de Linderhof et l'abbaye d'Ettal",
+    "paragraph_1" : "À 1h30 min du lieu de mariage, vous découvrirez le plus petit des châteaux de Louis II de Bavière. Il enchante par son joli parc vallonné et parsemé de fontaines, de bosquets et de sculptures. Près de ce château se trouve l'abbaye d'Ettal, l'une des plus belles de la région. C'est une destination culturelle agréable et moins touristique que les autres châteaux bavarois.",
+    "paragraph_2" : "Un petit détour dans la petite ville voisine d'Oberammergau vous permettra d'admirer ses célèbres peintures murales typiquement bavaroises." 
+  },
+  "koenigssee" : {
+    "title": "Königssee, un lac majestueux",
+    "paragraph_1" : "À 1h30 min du lieu de cérémonie, le Königssee est certainement le plus beau lac d'Allemagne et il fut aussi notre première excursion en amoureux suite à notre rencontre en 2017. Situé au centre d'une grande réserve naturelle, il est entouré de massifs alpins spectaculaires. Près de là, Berchtesgaden est une ville bavaroise pleine de charme. De nombreuses randonnées permettent d'admirer ce site d'exception."
+  },
+  "neuschwanstein" : {
+    "title": "Neuschwanstein, un château de conte de fées",
+    "paragraph_1" : "À 1h30 min du lieu de cérémonie, Neuschwanstein est le château le plus visité d’Allemagne. Architecture extravagante, cadre montagneux à couper le souffle, décor intérieur exubérant, ce palais féerique fut d'ailleurs pris en modèle par Disney pour son château",
+    "paragraph_2": "L'ombre de l'excentrique Louis II de Bavière et de son génial compositeur Wagner plane encore sur ces lieux."
+  }
+},
 "best_man_maid_of_honor": {
   "intro": "Ici,nos témoins sont à l'honneur.",
   "maid": {
