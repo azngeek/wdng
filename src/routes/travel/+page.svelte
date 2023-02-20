@@ -178,6 +178,11 @@
 			}
 		];
 
+
+
+
+   
+
 		loader.load().then(() => {
 			const loc = { lat: 47.7063905, lng: 11.8763645 };
 
@@ -187,6 +192,14 @@
 				styles: grayStyles
 			});
 
+            const image =
+            './wedding-couple.png';
+        const beachMarker = new google.maps.Marker({
+            position: loc,
+            map,
+            icon: image
+        });
+        
             const contentString =
     '<div id="content">' +
     '<div id="siteNotice">' +
