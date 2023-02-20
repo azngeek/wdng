@@ -83,10 +83,10 @@
 					<a href="/faq">{$t('menu_faq')}</a>
 				</li>
 				<li class="flex-initial w-40 h-12 text-center pt-4">
-					<a href="/agenda">{$t('menu_timeline')}</a>
+					<a href="/agenda">{$t('menu_agenda')}</a>
                 </li>
 				<li class="flex-initial w-40 h-12 text-center pt-4">
-					<a href="/party">{$t('menu_party')}</a>
+					<a href="/party">{$t('menu_witness')}</a>
 				</li>
 			</ul>
 		</div>
@@ -115,15 +115,15 @@
 			</div>
 
 			<div class="text-center mt-8">
-				<button on:click={() => goTo('faqs')}>{$t('menu_faq')}</button>
+				<button on:click={() => goTo('faq')}>{$t('menu_faq')}</button>
 			</div>
 
 			<div class="text-center mt-8">
-				<button on:click={() => goTo('travel')}>{$t('menu_timeline')}</button>
+				<button on:click={() => goTo('agenda')}>{$t('menu_agenda')}</button>
 			</div>
 
 			<div class="text-center mt-8">
-				<button on:click={() => goTo('travel')}>{$t('menu_party')}</button>
+				<button on:click={() => goTo('travel')}>{$t('menu_witness')}</button>
 			</div>
 		</div>
 	</div>

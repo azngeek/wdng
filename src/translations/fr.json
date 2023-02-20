@@ -6,7 +6,7 @@
   "menu_travel_hotels": "Hébergements",
   "menu_visit_bavaria": "Visiter la Bavière",
   "menu_faq": "FAQ",
-  "menu_timeline": "Timeline",
+  "menu_agenda": "Programme",
   "menu_party": "Party",
   "date_location" : {
     "hero_1" : "Après 5 ans de vie commune, nous avons finalement décidé  de franchir le cap !",
@@ -16,5 +16,17 @@
   "travel_hotels": {
     "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
     "paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
+  },
+  "agenda" : {
+    "header": "Programme",
+    "agenda_1400" : "Arrivée des invités au musée Wasmeier: tous les invités entreront bien sûr gratuitement ;-) Une fois passée la porte du musée, il vous faudra marcher environ 5 à 10 minutes jusqu'au lieu de cérémonie.",
+    "agenda_1430" : "Début de la cérémonie d’engagement et réponses à toutes vos questions : où, quand et comment Sebi et Amandine se sont-ils rencontrés? - sont-ils tombés amoureux? - et se sont-ils fiancés et finalement mariés?",
+    "agenda_1515" : "Vin d’honneur: possibilité de féliciter les mariés et, selon l'humeur, de se promener dans le village bavarois.",
+    "agenda_1700" : "Souriez! C’est l’heure de poser pour quelques photos: des mariés avec leur famille, des amis avec les mariés, des amies de la mariée, tous les porteurs de lunettes, tous les hommes en costume rouge, ceux qui se sont endormis lors de l'enterrement de vie de garçon, et autres ;-)",
+    "agenda_1730" : "Facultatif: Possibilité d'une visite guidée du musée Wasmeier ou même d’une dégustation de bière bavaroise artisanale pour les amateurs de “Gerstensaft”.",
+    "agenda_1830" : "Début des festivités avec un dîner, peut-être avec une valse des mariés, définitivement avec un gâteau, certainement avec l'un ou l'autre discours, dont peut-être même un discours des mariés, dans tous les cas, que la fête commence! ",
+    "agenda_2230" : "Ceux qui sont fatigués peuvent dès à présent se faire conduire à leur hôtel grâce à une navette mise à disposition.",
+    "agenda_0300" : "Le musée Wasmeier ferme ses portes, il n'est malheureusement pas possible d'y rester pour la nuit.",
+    "agenda_0315" : "Départ de la seule et unique navette pour Munich centre."
   }
 }

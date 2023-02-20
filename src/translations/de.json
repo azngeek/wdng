@@ -1,25 +1,37 @@
 {
-  "page_title": "Page title",
-  "sign_in": "Sign in",
-  "sign_up": "Sign up",
-  "welcome": "Willkommen",
-  "menu_date_location": "Wann und Wo",
-  "menu_travel_hotels": "Übernachtung",
-  "menu_visit_bavaria": "Sehenswürdigkeiten",
-  "menu_faq": "FAQ",
-  "menu_timeline": "Ablauf",
-  "menu_party": "Party",
-  "date_location" : {
-    "hero_1" : "Nach fünf Jahren gemeinsamen Lebens haben wir uns schließlich dazu entschlossen, den Schritt zu wagen!",
-    "hero_2" : "Um den Beginn unseres neuen Lebens als verheiratetes Paar zu feiern, treffen wir uns am <span class=\"font-semibold\">12 August 2023</span> in Schliersee im <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum ab 14:00 Uhr</span>.",
-    "hero_3" : "In der Hoffnung, diesen freudigen Moment mit Ihnen teilen zu können, bitten wir Sie, uns Ihre Anwesenheit bis zum <span class=\"font-semibold\">15. März mitzuteilen</span>, indem Sie das folgende Formular ausfüllen:",
-    
-    "header" : "Hier finden Sie einige Details zum Ort der Zeremonie und des Festes:",
-    "paragraph_1" : "Und ja! Ihre Deutschkenntnisse sind immer noch sehr gut :) Die Hochzeit wird in einem Freilichtmuseum stattfinden.",
-    "paragraph_2" : "Inspiriert von einem Freilichtmuseum in Lillehammer, Norwegen, hat der ehemalige deutsche Skifahrer Markus Wasmeier mehrere historische Gebäude im bayerischen Oberland nachgebaut und so einen hübschen bayerischen Weiler aus dem 18. Hier werden wir von 14:00 Uhr bis in die Nacht hinein feiern!"
-},
-  "travel_hotels": {
-    "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
-    "paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
+	"page_title": "Page title",
+	"sign_in": "Sign in",
+	"sign_up": "Sign up",
+	"welcome": "Willkommen",
+	"menu_date_location": "Wann und Wo",
+	"menu_travel_hotels": "Übernachtung",
+	"menu_visit_bavaria": "Sehenswürdigkeiten",
+	"menu_faq": "FAQ",
+	"menu_agenda": "Programm",
+	"menu_witness": "Trauzeugen",
+	"date_location": {
+		"hero_1": "Nach fünf Jahren gemeinsamen Lebens haben wir uns schließlich dazu entschlossen, den Schritt zu wagen!",
+		"hero_2": "Um den Beginn unseres neuen Lebens als verheiratetes Paar zu feiern, treffen wir uns am <span class=\"font-semibold\">12 August 2023</span> in Schliersee im <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum ab 14:00 Uhr</span>.",
+		"hero_3": "In der Hoffnung, diesen freudigen Moment mit Ihnen teilen zu können, bitten wir Sie, uns Ihre Anwesenheit bis zum <span class=\"font-semibold\">15. März mitzuteilen</span>, indem Sie das folgende Formular ausfüllen:",
+
+		"header": "Hier finden Sie einige Details zum Ort der Zeremonie und des Festes:",
+		"paragraph_1": "Und ja! Ihre Deutschkenntnisse sind immer noch sehr gut :) Die Hochzeit wird in einem Freilichtmuseum stattfinden.",
+		"paragraph_2": "Inspiriert von einem Freilichtmuseum in Lillehammer, Norwegen, hat der ehemalige deutsche Skifahrer Markus Wasmeier mehrere historische Gebäude im bayerischen Oberland nachgebaut und so einen hübschen bayerischen Weiler aus dem 18. Hier werden wir von 14:00 Uhr bis in die Nacht hinein feiern!"
+	},
+	"travel_hotels": {
+		"paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
+		"paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
+	},
+  "agenda" : {
+    "header": "Programm",
+    "agenda_1400" : "Ankunft der Gäste im Wasmeier Museum, alle Hochzeitsgäste haben selbstverständlich freien Eintritt ;-) Vom Eingang sind es noch ca. 5-10 Minuten zu Fuß bis zum Veranstaltungsort, einer Wiese hinter der Tenne. Dort wird alles für die freie Trauung vorbereitet sein.",
+    "agenda_1430" : "Beginn der freien Trauung und die Antwort auf die spannende Frage wo, wie und wann sich Amandine und Sebi kennengelernt, verliebt, verlobt und letztendlich auch geheiratet haben.",
+    "agenda_1515" : "Hochzeitsempfang mit Drinks und Fingerfood, die Möglichkeit dem Brautpaar zu gratulieren und je nach Lust und Laune einen Spaziergang durch das bayerische Dorf zu machen.",
+    "agenda_1700" : "Zeit für ein paar Fotos: Brautpaar mit Familie, Freunde mit Brautpaar, Freundinnen der Braut, alle Brillenträger, alle Männer mit roten Anzügen, Damen mit Hut, Freunde des Bräutigams die auf dem Junggesellenabschied eingeschlafen sind oder was uns sonst so einfällt ;-)",
+    "agenda_1730" : "Möglichkeit für eine geführte Tour durch das Museum - auch kombinierbar mit einem Biertasting.",
+    "agenda_1830" : "Beginn der Hochzeitsfeier mit Abendessen, vielleicht mit einem Hochzeitstanz, definitiv mit einer Torte, gegebenenfalls mit der ein oder anderen Rede, darunter vielleicht sogar einer Rede des Brautpaars und in jedem Fall einer langen Party ;-)",
+    "agenda_2230" : "Wer müde wird, kann sich ab jetzt mit einem bereitstehenden Shuttle in die umliegenden Hotels fahren lassen.",
+    "agenda_0300" : "Das Wasmeier Museum schließt seine Pforten, eine Übernachtung ist leider nicht möglich.",
+    "agenda_0315" : "Abfahrt des einzigen und letzten Shuttelbusses in die Münchner Innenstadt."
   }
 }
