@@ -70,14 +70,14 @@
 
 	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
 		<img 
-		class="md:w-4/5 mx-auto"
-		src="https://image.jimcdn.com/app/cms/image/transf/none/path/s35f0f87a1bc2fc4f/image/i0173b804adcb12dd/version/1543997791/image.jpg"
-		alt="ss"
+		class="md:w-5/5 mx-auto"
+		src="/image13.png"
+		alt="wasmeier_path"
 		/>
-		<div class="md:w-4/5 mx-auto text-right text-xs italic mt-0">
-			<span>"Wasmeier Museum"</span>
+		<div class="md:w-4/5 mx-auto text-right text-xs mt-0">
+		  <span></span>
 		</div>
-	</div>	
+	</div>
 
 	<h3>Location</h3>
 

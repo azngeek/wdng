@@ -11,6 +11,16 @@
 
     <h3>2) {$t('faq.q2')} </h3>
     <p>{$t('faq.a2')}</p>
+    <div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
+		<img 
+		class="md:w-5/5 mx-auto"
+		src="/image6.jpg"
+		alt="wasmeier_path"
+		/>
+		<div class="md:w-4/5 mx-auto text-right text-xs mt-0">
+		  <span></span>
+		</div>
+	</div>
     
     <h3>3) {$t('faq.q3')} </h3>
     <p>{@html $t('faq.a3')}</p>
