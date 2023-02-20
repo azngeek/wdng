@@ -8,13 +8,15 @@
 	import Divider from '$lib/components/Divider.svelte';
 	import '@fontsource/bodoni-moda/400-italic.css';
 
-	init({
-		fallbackLocale: 'de',
-		initialLocale: 'de',
-	})
-
 	onMount(() => {
-		locale.set(localStorage.getItem('svelte-i18n-locale'));
+		// Als Fallback setzen
+		let lang = localStorage.getItem('svelte-i18n-locale');
+		if (null === lang) {
+			localStorage.setItem('svelte-i18n-locale', 'de');
+			locale.set('de');
+		} else {
+			locale.set(lang);
+		}
 	});
 </script>
 

@@ -1,9 +1,7 @@
 <script lang="ts">
 
-	
+
 	import { goto } from '$app/navigation';
-	import { auth, signOut } from '$lib/Firebase';
-	import authStore from '$lib/authStore';
 	import { onMount } from 'svelte';
 	import { createPopup } from '@typeform/embed';
 	import '@typeform/embed/build/css/popup.css';
@@ -21,30 +19,6 @@
 		popup.toggle();
 	}
 
-	let userLoggedIn: boolean = false;
-	console.log(authStore);
-	authStore.subscribe(({ isLoggedIn, user }) => {
-		if (isLoggedIn) {
-			console.log(user);
-			userLoggedIn = true;
-		}
-	});
-
-	async function redirectToLogin() {
-		await goto('/login');
-	}
-
-	function logout() {
-		alert('logout');
-		signOut(auth)
-			.then(() => {
-				// Sign-out successful.
-			})
-			.catch((error) => {
-				// An error happened.
-			});
-	}
-
 	let visibility = false;
 	async function toggleMenu() {
 		visibility = !visibility;
@@ -54,21 +28,6 @@
 		await goto('/' + location);
 		toggleMenu();
 	}
-	/*
-
-    import * as typeformEmbed from '@typeform/embed';
-    import '@typeform/embed/build/css/popup.css'
-
-    let { toggle } = typeformEmbed.createPopup('BtSly3JE', {
-			medium: 'demo-test',
-			hidden: { foo: 'foo value', bar: 'bar value' }
-		});
-
-    async function rsvp() 
-    {
-        await toggleMenu();
-		toggle();	
-    }*/
 
 	let lang = 'de';
 
@@ -78,15 +37,11 @@
 
 	onMount(() => {
 		lang = localStorage.getItem('svelte-i18n-locale')
-		locale.set(lang)
 	})
 
 	const onChangeLanguage = () => {
 		localStorage.setItem('svelte-i18n-locale', lang);
 		locale.set(lang)
-
-		//location.reload()
-
 	}
 //	
 </script>
