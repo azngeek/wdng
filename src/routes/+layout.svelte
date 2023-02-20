@@ -8,10 +8,9 @@
 	import Divider from '$lib/components/Divider.svelte';
 	import '@fontsource/bodoni-moda/400-italic.css';
 
-
 	init({
 		fallbackLocale: 'de',
-		initialLocale: getLocaleFromNavigator(),
+		initialLocale: 'de',
 	})
 
 	onMount(() => {
