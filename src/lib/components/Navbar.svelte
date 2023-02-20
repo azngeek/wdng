@@ -55,7 +55,14 @@
 	</div>
 	<div class="divide-y divide-dotted">
 		<div class="text-center text-2xl lg:text-3xl h-12 flex">
-			<div class="flex-auto text-left md:text-center nice-font p-2">Amandine & Sebastian</div>
+			<div class="mx-auto p-2">
+				<div class="w-32 h-32 md:w-48 md:h-48">	<img 
+					class=""
+					src="/as.png"
+					alt="ss"
+					/>
+					</div>
+			</div>
 			<div class="md:hidden text-right flex-auto mr-6 py-1">
 				<button on:click={toggleMenu}>☰</button>
 			</div>
@@ -108,7 +115,7 @@
 			</div>
 
 			<div class="text-center mt-8">
-				<button on:click={() => goTo('travel')}>{$t('menu_faq')}</button>
+				<button on:click={() => goTo('faqs')}>{$t('menu_faq')}</button>
 			</div>
 
 			<div class="text-center mt-8">

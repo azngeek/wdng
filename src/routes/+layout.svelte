@@ -24,7 +24,6 @@
 	<div class="container max-w-screen-lg mx-auto">
 		<Navbar />
 
-		<Divider />
 
 		<!-- Content -->
 		<div class="mt-10 p-4 font-serif max-w-screen-lg">
