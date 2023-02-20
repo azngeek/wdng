@@ -17,6 +17,34 @@
     "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
     "paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
   },
+  "faq": {
+    "q1": "Est-ce que le mariage aura lieu en cas de mauvais temps?",
+    "a1" : "Oui, il aura lieu par tous les temps. Le Markus Wasmeier Freilichtmuseum offre un lieu de cérémonie couvert en cas de pluie. Par beau temps, la cérémonie se déroulera en plein air. Le repas du soir et la piste de danse se trouveront, quant à eux, dans la salle principale quelque soit le temps.",
+
+    "q2": "Où puis-je garer ma voiture ?",
+    "a2" : "Le musée a son propre parking dont les invités pourront disposer. Une fois garé, il vous faudra parcourir environ 500 mètres à pied  (voir photo ci-dessous) pour rejoindre le hameau bavarois où se dérouleront les festivités. Conseil pour les filles en talons hauts: prenez une deuxième paire de chaussures plates. Il y aura un vestiaire sur place où déposer vos affaires.",
+
+    "q3": "Est-il possible de venir au mariage en transport public",
+    "a3" : "Oui, il y a un train régional  direct partant de la gare centrale de Munich. Il s’arrête à 200m du Markus Wasmeier Freilichtmuseum. <br />Train:  Bayerische Regiobahn<br />Arrêt: Fischhausen-Neuhaus (un arrêt après Schliersee)<br />Durée de trajet: 1h ",
+
+    "q4": "Je souhaite rentrer à Munich après la fête: y a-t-il une navette de nuit pour Munich?",
+    "a4" : "Un bus sera organisé en fin de soirée pour conduire les invités qui le souhaitent au centre de Munich. Merci de nous indiquer dans le formulaire (link to RSVP) si vous souhaitez utiliser cette navette.",
+
+    "q5": "Je passe la nuit dans un hôtel environnant: y a-t-il une navette pour retourner à l'hôtel pendant la nuit ?",
+    "a5" : "Oui une navette passera par les hôtels de Schliersee et environs pour conduire les invités en fin de soirée.",
+
+    "q6": "Quel est le dress code? ",
+    "a6" : "Il n’y a pas de dress code. C'est tout simplement l’occasion pour vous de sortir vos belles tenues. Portez ce qui vous fait plaisir et choisissez la tenue dans laquelle vous vous sentez le plus beau. Note annexe: les mariés ne seront pas en habits traditionnels bavarois. ",
+
+    "q7": "Puis-je venir avec mes enfants ?",
+    "a7" : "Les amis des mariés sont invités “sans enfants”. Ceci afin d’avoir toute leur attention lors de la fête et que celle-ci ne finisse pas à l'heure du coucher des enfants. Les membres de la famille des mariés sont, bien entendu, invités quel que soit leur âge. Une exception sera faite, avec plaisir, pour tous les invités venant de loin et souhaitant combiner le mariage avec des vacances en famille. Si c'est le cas, veuillez l’indiquer dans le formulaire (RSVP). Un système d'encadrement et d'activités pour enfant sera organisé en conséquence.",
+
+    "q8": "Je souhaite faire un discours ou une surprise aux mariés, à qui dois-je m’adresser? ",
+    "a8" : "Super! Adressez-vous directement aux témoins",
+
+    "q9": "Que souhaitent les mariés comme cadeau de mariage?",
+    "a9" : "Le plus beau cadeau sera votre présence. D’autant plus que vous venez tous de loin! Si vous tenez tout de même à offrir quelque chose aux mariés, une cagnotte sera mise à la disposition des invités pour ceux qui souhaitent contribuer à leur voyage de noce."
+  },
   "agenda" : {
     "header": "Programme",
     "agenda_1400" : "Arrivée des invités au musée Wasmeier: tous les invités entreront bien sûr gratuitement ;-) Une fois passée la porte du musée, il vous faudra marcher environ 5 à 10 minutes jusqu'au lieu de cérémonie.",

@@ -22,6 +22,34 @@
 		"paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
 		"paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
 	},
+  "faq": {
+    "q1": "Wird die Hochzeit auch bei schlechtem Wetter stattfinden?",
+    "a1" : "Natürlich! Das Markus Wasmeier Freilichtmuseum bietet einen überdachten Ort für die Trauung, falls es regnet. Bei gutem Wetter findet die Trauung im Freien statt. Das Abendessen findet in der Tenne statt - dort befindet sich auch die Tanzfläche.",
+
+    "q2": "Wo kann ich mein Auto parken?",
+    "a2" : "Das Museum hat einen eigenen Parkplatz, den die Gäste nutzen können. Wenn Sie Euer Auto geparkt haben, müsst Ihr etwa noch 500 Meter zu Fuß gehen (siehe Foto). Tipp für alle Damen mit hohen Absätzen: Nehmt ein zweites Paar flache Schuhe mit. Es wird vor Ort eine Garderobe geben, an der Ihr Sachen abgeben können.",
+
+    "q3": "Ist es möglich, mit öffentlichen Verkehrsmitteln zur Hochzeit zu kommen?",
+    "a3" : "Ja, es gibt einen direkten Regionalzug, der vom Münchner Hauptbahnhof abfährt und direkt gegenüber vom Markus Wasmeier Freilichtmuseum hält. <br /> Zug: Bayerische Regiobahn <br /> Haltestelle: Fischhausen-Neuhaus (eine Haltestelle nach Schliersee) <br /> Dauer der Fahrt: 1 Stunde",
+
+    "q4": "Ich möchte nach der Party nach München zurückfahren: Gibt es einen Nachtbus nach München?",
+    "a4" : "Wir werden einen Bus organisieren, der die letzten Gäste des Abends ins Zentrum von München bringt. Damit der Bus groß genug ist, teilt uns bitte mit, ob ihr mitfahren wollt.",
+
+    "q5": "Ich übernachte in einem Hotel in der Nähe: Gibt es einen Shuttlebus, der mich nachts zurück zum Hotel bringt?",
+    "a5" : "Ja, es wird einen Shuttle-Service geben, der die Gäste ab ca. 22 Uhr zu den umliegenden Hotels bringt.",
+
+    "q6": "Wie ist der Dresscode?",
+    "a6" : "Es gibt keinen Dresscode. Aber eine Hochzeit ist eine gute Gelegenheit, Eure schönsten Outfits  auszupacken - wir werden uns auch Mühe geben ;-) Da wir unsere standesamtliche Hochzeit bereits in Tracht feiern, werdet Ihr leider am Samstag keine Möglichkeit haben uns in Dirndl und Lederhosen zu sehen, sondern eher in einem klassischen Hochzeitsoutfit.",
+
+    "q7": "Kann ich meine Kinder mitbringen?",
+    "a7" : "All unsere Freunde laden wir grundsätzlich ohne Kinder ein, damit wir Eure volle Aufmerksamkeit haben und die Party nicht mit der Schlafenszeit der Kinder endet. Familienangehörige des Brautpaares sind natürlich unabhängig vom Alter eingeladen. Ausnahme machen wir gerne für alle Gäste, die von weit her kommen und unsere Hochzeit mit einem Familienurlaub verbinden möchten. Wenn dies der Fall ist, informiert uns bitte im Voraus über das Formular (RSVP), damit wir eine Betreuung organisieren können.",
+
+    "q8": "Ich möchte eine Rede halten oder das Brautpaar überraschen, an wen kann ich mich wenden?",
+    "a8" : "Wendet Euch am besten direkt an die Trauzeugen Bosco und Emilie (link to page).",
+
+    "q9": "Was wünscht sich das Brautpaar als Hochzeitsgeschenk?",
+    "a9" : "Das schönste Geschenk ist Eure Anwesenheit, denn wir wissen, dass die Übernachtungen am Schliersee und die Anreise für einige Gäste bereits mit hohen Kosten verbunden sind. Wenn Ihr uns trotzdem etwas schenken möchtet, freuen wir uns über einen Beitrag zu unserer Hochzeitsreise, denn alles was wir für den Haushalt brauchen haben wir schon :-)"
+  },
   "agenda" : {
     "header": "Programm",
     "agenda_1400" : "Ankunft der Gäste im Wasmeier Museum, alle Hochzeitsgäste haben selbstverständlich freien Eintritt ;-) Vom Eingang sind es noch ca. 5-10 Minuten zu Fuß bis zum Veranstaltungsort, einer Wiese hinter der Tenne. Dort wird alles für die freie Trauung vorbereitet sein.",
