@@ -4,7 +4,7 @@
 </script>
 <article class="prose max-w-screen-lg mt-8">
 
-	<h2>{$t('best_man_maid_of_honor.maid.intro')}</h2>
+	<h2>{$t('best_man_maid_of_honor.intro')}</h2>
 
     <h3>{$t('best_man_maid_of_honor.maid.header')}</h3>
     <p>{$t('best_man_maid_of_honor.maid.paragraph_1')}</p>
