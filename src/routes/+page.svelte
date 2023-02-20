@@ -64,16 +64,6 @@
 
 <article class="prose max-w-screen-lg mt-8">
 	
-	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
-		<img 
-		class="md:w-5/5 mx-auto"
-		src="/invite_s.jpg"
-		alt="invite"
-		/>
-		<div class="md:w-4/5 mx-auto text-right text-xs mt-0">
-		  <span></span>
-		</div>
-	</div>
 
 	<p>
 		{@html $t('date_location.hero_1')}	
@@ -94,16 +84,6 @@
 		</div>
 	</div>
 
-	<div class="prose prose-img max-w-screen-lg mt-8">
-		<div class="flex flex-row-reverse">
-			<div class="w-48 h-48">	<img 
-				class=""
-				src="/as.png"
-				alt="ss"
-				/>
-				</div>
-		</div>
-	</div>
 	
 </article>
 

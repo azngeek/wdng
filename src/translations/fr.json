@@ -11,8 +11,8 @@
   "menu_best_man_maid_of_honor": "Les témoins",
   "date_location" : {
     "hero_1" : "Après 5 ans de vie commune, nous avons finalement décidé  de franchir le cap !",
-    "hero_2" : "Afin de célébrer le début de notre nouvelle vie de couple marié, nous vous donnons rendez-vous le <span>ss</span>12 août 2023 à Schliersee au Markus Wasmeier Freilichtmuseum à partir de 14:00. La cérémonie d’engagement démarrera à 14:30 et sera suivie par des festivités.",
-    "hero_3" : "En espérant partager ce moment de joie avec vous, merci de nous faire part de votre présence d’ici le 15 mars en complétant le formulaire suivant:"
+    "hero_2" : "Afin de célébrer le début de notre nouvelle vie de couple marié, nous vous donnons rendez-vous le <span class=\"font-semibold\">12 août 2023</span> à Schliersee au <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum à partir de 14:00</span>. La cérémonie d’engagement démarrera à 14:30 et sera suivie par des festivités.",
+    "hero_3" : "En espérant partager ce moment de joie avec vous, merci de nous faire part de votre présence d’ici le <span class=\"font-semibold\">15 mars</span> en complétant le formulaire suivant:"
 },
 "bavaria": {
   "intro": {
