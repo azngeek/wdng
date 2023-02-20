@@ -19,27 +19,20 @@
     <p>{$t('best_man_maid_of_honor.maid.paragraph_8')}</p>
 
    
-    <div class="grid grid-rows-1 grid-flow-col ">
-        <div>
-            <img 
-            class="h-3/4"
-            src="/emilie1.jpg"
-            alt="wasmeier_path"
-            />
+    <div class="grid grid-cols-4">
+        <div class="col-start-1 col-span-2">
+          <img 
+          class="md:h-5/5 align-right"
+          src="/emilie1_cropped.jpg"
+          alt="emilie 1"
+          />
         </div>
-        <div>
-            <img 
-           class="h-3/4"
-            src="/emilie2.jpg"
-            alt="wasmeier_path"
-            />
-        </div>
-        <div>
-            <img 
-            class="h-3/4"
-            src="/emilie3.jpg"
-            alt="wasmeier_path"
-            />
+        <div class="col-start-3 col-span-2">
+          <img 
+          class="md:h-4/5"
+          src="/emilie2.jpg"
+          alt="emilie 2"
+          />
         </div>
       </div>
 
