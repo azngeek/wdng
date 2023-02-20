@@ -14,7 +14,7 @@
 		<!-- 14:00 -->
 		<div class="mb-8 mt-8 md:flex md:justify-between items-center ">
 			<div class="order-1 md:w-6/12" />
-			<div class="order-1 bg-green-100 shadow-xl md:w-6/12 px-6 py-2">
+			<div class="order-1 bg-gray-100 shadow-xl md:w-6/12 px-6 py-2">
 				<h3 class="mb-3 font-bold text-gray-800 text-xl">14:00</h3>
 				<p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
 					👥 {$t('agenda.agenda_1400')}
@@ -25,7 +25,7 @@
 		<!-- 14:30 -->
 		<div class="mb-8 md:flex justify-between flex-row-reverse items-center w-full">
 			<div class="order-1 md:w-6/12" />
-			<div class="order-1 bg-red-100 shadow-xl md:w-6/12 px-6 py-2">
+			<div class="order-1 bg-gray-100 shadow-xl md:w-6/12 px-6 py-2">
 				<h3 class="mb-3 font-bold text-black text-xl">14:30</h3>
 				<p class="text-sm font-medium leading-snug tracking-wide text-black text-opacity-100">
 					💍 {$t('agenda.agenda_1430')}
@@ -36,7 +36,7 @@
 		<!-- 15:15 -->
 		<div class="mb-8 mt-8 md:flex md:justify-between items-center ">
 			<div class="order-1 md:w-6/12" />
-			<div class="order-1 bg-green-100 shadow-xl md:w-6/12 px-6 py-2">
+			<div class="order-1 bg-gray-100 shadow-xl md:w-6/12 px-6 py-2">
 				<h3 class="mb-3 font-bold text-gray-800 text-xl">15:15</h3>
 				<p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
 					🥂 {$t('agenda.agenda_1515')}
@@ -47,7 +47,7 @@
 		<!-- 17:00 -->
 		<div class="mb-8 md:flex justify-between flex-row-reverse items-center w-full">
 			<div class="order-1 md:w-6/12" />
-			<div class="order-1 bg-red-100 shadow-xl md:w-6/12 px-6 py-2">
+			<div class="order-1 bg-gray-100 shadow-xl md:w-6/12 px-6 py-2">
 				<h3 class="mb-3 font-bold text-black text-xl">17:00</h3>
 				<p class="text-sm font-medium leading-snug tracking-wide text-black text-opacity-100">
 					📸 {$t('agenda.agenda_1700')}
@@ -59,7 +59,7 @@
 		<!-- 17:30 -->
 		<div class="mb-8 mt-8 md:flex md:justify-between items-center ">
 			<div class="order-1 md:w-6/12" />
-			<div class="order-1 bg-green-100 shadow-xl md:w-6/12 px-6 py-2">
+			<div class="order-1 bg-gray-100 shadow-xl md:w-6/12 px-6 py-2">
 				<h3 class="mb-3 font-bold text-gray-800 text-xl">17:30</h3>
 				<p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
 					🏛️ {$t('agenda.agenda_1730')}
@@ -70,7 +70,7 @@
 		<!-- 18:30 -->
 		<div class="mb-8 md:flex justify-between flex-row-reverse items-center w-full">
 			<div class="order-1 md:w-6/12" />
-			<div class="order-1 bg-red-100 shadow-xl md:w-6/12 px-6 py-2">
+			<div class="order-1 bg-gray-100 shadow-xl md:w-6/12 px-6 py-2">
 				<h3 class="mb-3 font-bold text-black text-xl">18:30</h3>
 				<p class="text-sm font-medium leading-snug tracking-wide text-black text-opacity-100">
 					🎉 {$t('agenda.agenda_1830')}
@@ -83,7 +83,7 @@
 		<!-- 22:30 -->
 		<div class="mb-8 mt-8 md:flex md:justify-between items-center ">
 			<div class="order-1 md:w-6/12" />
-			<div class="order-1 bg-green-100 shadow-xl md:w-6/12 px-6 py-2">
+			<div class="order-1 bg-gray-100 shadow-xl md:w-6/12 px-6 py-2">
 				<h3 class="mb-3 font-bold text-gray-800 text-xl">22:30</h3>
 				<p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
 					😴 {$t('agenda.agenda_2230')}
@@ -94,7 +94,7 @@
 		<!-- 03:00 -->
 		<div class="mb-8 md:flex justify-between flex-row-reverse items-center w-full">
 			<div class="order-1 md:w-6/12" />
-			<div class="order-1 bg-red-100 shadow-xl md:w-6/12 px-6 py-2">
+			<div class="order-1 bg-gray-100 shadow-xl md:w-6/12 px-6 py-2">
 				<h3 class="mb-3 font-bold text-black text-xl">03:00</h3>
 				<p class="text-sm font-medium leading-snug tracking-wide text-black text-opacity-100">
 					🌙 {$t('agenda.agenda_0300')}
@@ -106,7 +106,7 @@
 		<!-- 03:15 -->
 		<div class="mb-8 mt-8 md:flex md:justify-between items-center ">
 			<div class="order-1 md:w-6/12" />
-			<div class="order-1 bg-green-100 shadow-xl md:w-6/12 px-6 py-2">
+			<div class="order-1 bg-gray-100 shadow-xl md:w-6/12 px-6 py-2">
 				<h3 class="mb-3 font-bold text-gray-800 text-xl">03:15</h3>
 				<p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
 					👋 {$t('agenda.agenda_0315')}

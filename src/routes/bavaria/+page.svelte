@@ -6,7 +6,6 @@
 
 	<h2>{$t('bavaria.intro.header')}</h2>
     <p>{$t('bavaria.intro.paragraph_1')}</p>
-    <p>{$t('bavaria.intro.paragraph_2')}</p>
 
     <h3>{$t('bavaria.tegernsee.title')}</h3>
     <p>{$t('bavaria.tegernsee.paragraph_1')}</p>

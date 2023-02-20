@@ -17,8 +17,7 @@
 "bavaria": {
   "intro": {
     "header": "Visiter la Bavière",
-    "paragraph_1": "Visiter la Bavière: les incontournables ",
-    "paragraph_2": "Si vous n'avez pas encore eu l'occasion de découvrir la Bavière, c'est le moment ! Découvrez ici les plus beaux sites touristiques de cette région."
+    "paragraph_1": "Si vous n'avez pas encore eu l'occasion de découvrir la Bavière, c'est le moment ! Découvrez ici les plus beaux sites touristiques de cette région."
   },
   "tegernsee" : {
     "title": "Le lac de Tegernsee et ses nombreuses randonnées",
@@ -42,6 +41,10 @@
     "title": "Neuschwanstein, un château de conte de fées",
     "paragraph_1" : "À 1h30 min du lieu de cérémonie, Neuschwanstein est le château le plus visité d’Allemagne. Architecture extravagante, cadre montagneux à couper le souffle, décor intérieur exubérant, ce palais féerique fut d'ailleurs pris en modèle par Disney pour son château",
     "paragraph_2": "L'ombre de l'excentrique Louis II de Bavière et de son génial compositeur Wagner plane encore sur ces lieux."
+  },
+  "zugspitze" : {
+    "title": "Zugspitze, le plus haut sommet d'Allemagne",
+    "paragraph_1" : "À 1h45 min du lieu de cérémonie, la Zugspitze est le  plus haut sommet d'Allemagne, un site incontournable en Bavière. Plusieurs téléphériques permettent d'y accéder facilement et offrent des panoramas à couper le souffle. Au pied de la Zugspitze se trouve un lac splendide : l'Eibsee. Non loin de là, la ville de Garmisch-Partenkirchen mérite également le détour."
   }
 },
 "best_man_maid_of_honor": {
