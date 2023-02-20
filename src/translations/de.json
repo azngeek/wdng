@@ -8,7 +8,7 @@
 	"menu_visit_bavaria": "Sehenswürdigkeiten",
 	"menu_faq": "FAQ",
 	"menu_agenda": "Programm",
-	"menu_witness": "Trauzeugen",
+	"menu_best_man_maid_of_honor": "Trauzeugen",
 	"date_location": {
 		"hero_1": "Nach fünf Jahren gemeinsamen Lebens haben wir uns schließlich dazu entschlossen, den Schritt zu wagen!",
 		"hero_2": "Um den Beginn unseres neuen Lebens als verheiratetes Paar zu feiern, treffen wir uns am <span class=\"font-semibold\">12 August 2023</span> in Schliersee im <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum ab 14:00 Uhr</span>.",
@@ -18,6 +18,30 @@
 		"paragraph_1": "Und ja! Ihre Deutschkenntnisse sind immer noch sehr gut :) Die Hochzeit wird in einem Freilichtmuseum stattfinden.",
 		"paragraph_2": "Inspiriert von einem Freilichtmuseum in Lillehammer, Norwegen, hat der ehemalige deutsche Skifahrer Markus Wasmeier mehrere historische Gebäude im bayerischen Oberland nachgebaut und so einen hübschen bayerischen Weiler aus dem 18. Hier werden wir von 14:00 Uhr bis in die Nacht hinein feiern!"
 	},
+  "best_man_maid_of_honor": {
+    "intro": "Ici,nos témoins sont à l'honneur.",
+    "maid": {
+      "header": "Emilie: Trauzeugin der Braut.",
+      "paragraph_1": "Emilie ist Amandines vier Jahre ältere Schwester und war nach ihren Eltern die erste Person, die Amandine kennenlernte. Emilie war vom ersten Moment an eine Quelle der Inspiration für ihre jüngere Schwester.",
+      "paragraph_2": "Emilie ist abenteuerlustig, unabhängig, clever und war immer bereit, ausgetretene Pfade zu verlassen. Mit diesem Vorbild eröffnete sie ihrer Schwester viele Möglichkeiten, für die sie ihr bis heute sehr dankbar ist.",
+      "paragraph_3": "Mit 11 Jahren flog Emilie allein nach Berchtesgaden in Bayern, um Deutsch zu lernen. Aufgrund ihres großen Sprachtalents beherrschte sie mit 18 Jahren fließend Deutsch, Englisch und Italienisch. Später studierte sie russische und deutsche Literatur an der Faculté des Lettres in Genf.",
+      "paragraph_4": "Als junge Erwachsene konnte sie ihren Entdeckungsdrang stillen, indem sie ein Jahr lang in Sankt Petersburg lebte, später im sibirischen Irkutsk, dann in Kambodscha und Laos. Ihre internationale Erfahrung ermöglichte ihr eine erfolgreiche Karriere in der Marketing- und Veranstaltungsbranche.",
+      "paragraph_5": "Obwohl Emilie die geborene Abenteurerin ist, hat sie ihrer Familie immer den Vorrang gegeben. Da sie selbst Mutter eines zweijährigen Mädchens ist, konnte sie ihrer Schwester Amandine während der gesamten Schwangerschaft viele gute Ratschläge geben und versorgte Amandine und den kleinen Louis mit kiloweise Kleidung und Büchern.",
+      "paragraph_6": "Emilie und Amandine teilen viele wertvolle Erinnerungen. Sie verbrachten ihre Kindheit und Jugend gemeinsam auf Pferden, galoppierten über Felder, sprangen über selbstgebaute Hindernisse oder ließen sich sogar von ihren Ponys auf Langlaufskiern ziehen. Emilie gelang es immer, ihre kleine Schwester für Abenteuer zu begeistern.",
+      "paragraph_7": "Emilie und Amandine haben auch schöne Familienreisen durch Europa, nach Afrika, Asien, und Amerika unternommen, am meisten aber genossen sie die Ferien auf dem Bauernhof ihrer Großeltern. Dort verbrachten sie viele schöne Stunden bei Brett- und Kartenspielen. Emilie war besonders gut im Spiel “Kackhaufen”,ein  Kartenspiel, bei dem es darum geht, als Erster mit der Hand auf den Tisch zu hauen, wenn man seine Karten vollständig hatte. Mit einem nach einem Fahrradunfall eingegipsten Arm war sie hier besonders respekteinflößend und erfolgreich - wer will sich schon mit einem Gipsarm anlegen?",
+      "paragraph_8": "Die vielen gemeinsamen Erinnerungen und Emilies lebhafte Persönlichkeit machen sie zweifellos zur idealen Trauzeugin."  
+    }
+    ,
+    "man": {
+      "header": "Bosco: Trauzeuge des Bräutigams",
+      "paragraph_1": "Als Bosco und Sebi sich zum ersten mal sahen war Bosco nicht sonderlich daran interessiert Sebi näher kennenzulernen. Sebi war nur der Kumpel eines anderen Kumpels - das änderte sich erst, als Sebi die Gelegenheit hatte, seine (heute noch überragenden) Fähigkeiten bei zahlreichen Videospielen unter Beweis zu stellen. Jahrelang verbrachten die beiden viele Wochenende und Nächte damit, mit ihren Freunden zu feiern, Basketball zu spielen, neue Leute kennenzulernen oder Highscores zu knacken.",
+      "paragraph_2": "Als Sebi dann einen WG Mitbewohner suchte war Bosco sofort motiviert, seine alte Bleibe aufzugeben und mit in die Treffauerstraße zu ziehen. Noch heute wohnen die 2 unter dem selben Dach - Bosco im Obergeschoss, Sebi, Amandine und Louis im Erdgeschoss.",
+      "paragraph_3": "In Ihrer WG Zeit haben Sebi und Bosco nicht nur die ein oder andere wilde Party geschmissen, sondern auch die Welt bereist. Die USA, Thailand, Indonesien, Cuba und die Vereingiten Arabischen Emirate sowie zahlreiche Städtetrips haben die beiden unbeschadet überstanden. Tatsächlich haben die beiden auch ab und zu etwas sinnvolles gemacht - z.B. studiert und dabei ihren Weg in die Selbstständigkeit gefunden. Bosco führt zwischenzeitlich sein eigenes, erfolgreiches E-Commerce Unternehmen und noch häufig sprechen die beiden bei einem kleinen Erfrischungsgetränk über Geschäftsideeen oder das daily business.",
+      "paragraph_4": "Bosco ist zudem ein hochmotivierter und leidenschaftlicher Kraftsportler und hat viele Jahre lang versucht Sebi in sein straffes Trainingsprogramm mit einzubeziehen. Das hat einmal dazu geführt, dass Sebi sich während eines morgentlichen Workouts übergeben musste - seitdem fokussiert sich Sebi lieber auf Ausdauersport wie Laufen oder Mountainbiken, denn da kann er einigermaßen mit Bosco mithalten.",
+      "paragraph_5": "Da Kraftsportler Energie benötigen, hat Bosco zu WG Zeiten häufig kiloweise Bolognese oder Thai Curry gekocht. Dabei hat er immer darauf bestanden, dass die Gerichte mindestens 24 Stunden ziehen müssen, damit sich der Geschmack richtig entfalten kann. Wenn Sebi dann aber nicht zum richtigen Zeitpunkt zu Hause hatte Bosco zwischenzeitlich fast alles allein aufgegessen - seinem hungrigen Mitbewohner hat er dabei einmal sogar nur einen Teelöffel Bolognese übrig gelassen!",
+      "paragraph_6": "Wenn man fast 10 Jahre unter einem Dach zusammen lebt, lernt man sich natürlich gut kennen. Darum kennt Bosco Sebis Eigenheiten, Stärken, Schwächen und Geheimnisse besonders gut. Zum Glück ist er nicht nur vertrauenswürdig sondern auch verschwiegen, was ihn zur idealen Besetzung als Trauzeugen macht."
+    }
+  },
 	"travel_hotels": {
 		"paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
 		"paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."

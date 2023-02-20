@@ -86,7 +86,7 @@
 					<a href="/agenda">{$t('menu_agenda')}</a>
                 </li>
 				<li class="flex-initial w-40 h-12 text-center pt-4">
-					<a href="/party">{$t('menu_witness')}</a>
+					<a href="/best_man_maid">{$t('menu_best_man_maid_of_honor')}</a>
 				</li>
 			</ul>
 		</div>
@@ -123,7 +123,7 @@
 			</div>
 
 			<div class="text-center mt-8">
-				<button on:click={() => goTo('travel')}>{$t('menu_witness')}</button>
+				<button on:click={() => goTo('best_man_maid')}>{$t('menu_best_man_maid_of_honor')}</button>
 			</div>
 		</div>
 	</div>
