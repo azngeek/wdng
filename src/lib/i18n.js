@@ -17,6 +17,7 @@ import {
   })
 
   export {
+    init,
     t,
     isLoading,
     locale
