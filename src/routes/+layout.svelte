@@ -4,9 +4,15 @@
 	import '../app.css';
 	import Navbar from '$lib/components/Navbar.svelte';
 
-	import { locale, isLoading } from '$lib/i18n';
+	import { locale, isLoading, init } from '$lib/i18n';
 	import Divider from '$lib/components/Divider.svelte';
 	import '@fontsource/bodoni-moda/400-italic.css';
+
+
+	init({
+		fallbackLocale: 'de',
+		initialLocale: getLocaleFromNavigator(),
+	})
 
 	onMount(() => {
 		locale.set(localStorage.getItem('svelte-i18n-locale'));
@@ -31,7 +37,7 @@
 			</span>
 			<ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
 				<li>
-					<a href="#" class="hover:underline">Questions? Contact us @ +49 173 79 05 873 or </a>
+					<a href="#" class="hover:underline">Questions? Contact us @ +49 173 79 05 873 (Amandine)</a>
 				</li>
 			</ul>
 		</footer>
