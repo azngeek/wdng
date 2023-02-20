@@ -24,5 +24,16 @@
     <p>{$t('best_man_maid_of_honor.man.paragraph_4')}</p>
     <p>{$t('best_man_maid_of_honor.man.paragraph_5')}</p>
     <p>{$t('best_man_maid_of_honor.man.paragraph_6')}</p>
+
+    <div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
+		<img 
+		class="md:w-5/5 mx-auto"
+		src="/dubai.jpeg"
+		alt="wasmeier_path"
+		/>
+		<div class="md:w-4/5 mx-auto text-right text-xs mt-0">
+		  <span></span>
+		</div>
+	</div>
 	
 </article>
