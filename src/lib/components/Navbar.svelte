@@ -60,12 +60,13 @@
 	<div class="divide-y divide-dotted">
 		<div class="text-center text-2xl lg:text-3xl h-12 flex">
 			<div class="mx-auto p-2">
-				<div class="w-32 h-32 md:w-48 md:h-48">	<img 
+				<div class="w-32 h-32 md:w-48 md:h-48"><a href="/"><img 
 					class=""
 					src="/as.png"
 					alt="ss"
 					/>
-					</div>
+				</a>
+				</div>
 			</div>
 			<div class="md:hidden text-right flex-auto mr-6 py-1">
 				<button on:click={toggleMenu}>☰</button>
