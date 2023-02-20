@@ -19,7 +19,7 @@
     <p>{$t('best_man_maid_of_honor.maid.paragraph_8')}</p>
 
    
-    <div class="grid grid-cols-4">
+    <div class="grid grid-cols-5">
         <div class="col-start-1 col-span-2">
           <img 
           class="md:h-5/5 align-right"
@@ -27,11 +27,18 @@
           alt="emilie 1"
           />
         </div>
-        <div class="col-start-3 col-span-2">
+        <div class="col-start-3 col-span-1">
           <img 
-          class="md:h-4/5"
+          class="md:h-5/5"
           src="/emilie2.jpg"
           alt="emilie 2"
+          />
+        </div>
+        <div class="col-start-4 col-span-1">
+          <img 
+          class="md:h-5/5"
+          src="/emilie4.jpeg"
+          alt="emilie 4"
           />
         </div>
       </div>

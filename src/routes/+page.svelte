@@ -90,7 +90,7 @@
 		alt="costa rica bridge"
 		/>
 		<div class="md:w-5/5 mx-auto text-right text-xs mt-0">
-		  <span>Costa Rica, 08.01.2022</span>
+		  <span>Verlobung/Fiançailles, Costa Rica, 08.01.2022</span>
 		</div>
 	</div>
 
