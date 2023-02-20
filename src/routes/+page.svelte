@@ -64,7 +64,16 @@
 
 <article class="prose max-w-screen-lg mt-8">
 	
-	<h3>You are invited!</h3>
+	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
+		<img 
+		class="md:w-5/5 mx-auto"
+		src="/invite_s.jpg"
+		alt="invite"
+		/>
+		<div class="md:w-4/5 mx-auto text-right text-xs mt-0">
+		  <span></span>
+		</div>
+	</div>
 
 	<p>
 		{@html $t('date_location.hero_1')}	
@@ -76,12 +85,12 @@
 
 	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
 		<img 
-		class="md:w-2/5 mx-auto"
-		src="/costa_rica.jpeg"
+		class="md:w-5/5 mx-auto"
+		src="/image4.jpg"
 		alt="ss"
 		/>
 		<div class="md:w-4/5 mx-auto text-right text-xs mt-0">
-		  <span></span>
+		  <span>Costa Rica, 08.01.2022</span>
 		</div>
 	</div>
 
@@ -95,35 +104,7 @@
 				</div>
 		</div>
 	</div>
-
-	<h3>{@html $t('date_location.header')}</h3>
-	<p>{$t('date_location.paragraph_1')}</p>
-	<p>{$t('date_location.paragraph_2')}</p>
-
-
-	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
-		<img 
-		class="md:w-4/5 mx-auto"
-		src="https://image.jimcdn.com/app/cms/image/transf/none/path/s35f0f87a1bc2fc4f/image/i0173b804adcb12dd/version/1543997791/image.jpg"
-		alt="ss"
-		/>
-		<div class="md:w-4/5 mx-auto text-right text-xs italic mt-0">
-			<span>"Wasmeier Museum"</span>
-		</div>
-	</div>	
-
-	<h3>Location</h3>
-
-	<p class="mt-4">
-		🔗  <a href="https://www.wasmeier.de/">https://www.wasmeier.de</a>
-	</p>
 	
-	<p>
-		📌  <a href="https://www.google.com/maps/place/Markus+Wasmeier+Freilichtmuseum/@47.7063905,11.8763645,17z/data=!4m6!3m5!1s0x479d8a1c761e2605:0xb1f5d76bb5022bc8!8m2!3d47.7063478!4d11.8763233!10e1?hl=en-CH">How to get there</a>
-	</p>
-	
-	<div id="map" class="max-w-screen-lg h-96 mt-4 z-0" />
-
 </article>
 
 
