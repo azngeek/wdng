@@ -43,7 +43,11 @@
 		localStorage.setItem('svelte-i18n-locale', lang);
 		locale.set(lang)
 	}
-//	
+
+	function changeLang(lang) {
+		localStorage.setItem('svelte-i18n-locale', lang);
+		locale.set(lang)
+	}
 </script>
 
 <div class="md:mt-6 sticky md:relative top-0 bg-white">
@@ -103,6 +107,11 @@
 			<button value="b" class="text-white" on:click={toggleMenu}>X</button>
 		</div>
 		<div class="container mx-auto content-center pt-20 py-3 px-4">
+
+			<div class="text-center mt-8">
+				<button on:click={() => changeLang('de')}>🇩🇪</button>
+				<button on:click={() => changeLang('fr')}>🇫🇷</button>
+			</div>
 
 			<div class="text-center mt-8">
 				<button on:click={() => goTo('location')}>{$t('menu_date_location')}</button>
