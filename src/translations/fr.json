@@ -3,7 +3,7 @@
   "page_title": "Page title",
   "sign_in": "Sign in",
   "welcome": "Accueillir",
-  "menu_date_location": "Date et lieu",
+  "menu_date_location": "Accès et lieu",
   "menu_travel_hotels": "Hébergements",
   "menu_visit_bavaria": "Visiter la Bavière",
   "menu_faq": "FAQ",
@@ -23,8 +23,13 @@
 
     "hero_1" : "Après 5 ans de vie commune, nous avons finalement décidé  de franchir le cap !",
     "hero_2" : "Afin de célébrer le début de notre nouvelle vie de couple marié, nous vous donnons rendez-vous le <span class=\"font-semibold\">12 août 2023</span> à Schliersee au <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum</span> à partir de 14:00. La cérémonie d’engagement démarrera à 14:30 et sera suivie par des festivités.",
-    "hero_3" : "En espérant partager ce moment de joie avec vous, merci de nous faire part de votre présence d’ici le <span class=\"font-semibold\">15 mars</span> en complétant le formulaire suivant:"
-},
+    "hero_3" : "En espérant partager ce moment de joie avec vous, merci de nous faire part de votre présence d’ici le <span class=\"font-semibold\">15 mars</span> en complétant le formulaire suivant:",
+
+    "header": "Voici quelques détails sur le lieu de cérémonie et de fête au Markus Wasmeier Freilichtmuseum:",
+		"paragraph_1": "Et oui! Tes notions d’allemand sont toujours aussi bonnes :) Le mariage aura bien lieu dans un musée en plein air (= Freilichtmuseum).",
+    "paragraph_2": "Inspiré par un musée en plein air à Lillehammer en Norvège, l'ancien skieur allemand Markus Wasmeier a fait reconstruire plusieurs bâtiments historiques de l'Oberland bavarois, recréant un joli hameau du 18ème siècle. C’est là que nous fêterons de 14:00 jusqu'au bout de la nuit!"
+  },
+  
 "bavaria": {
   "intro": {
     "header": "Visiter la Bavière",

@@ -62,6 +62,8 @@
 
 	<h2>{@html $t('date_location.title')}</h2>
 	
+	<p><strong>{$t('date_location.header')}</strong></p>
+
 	<p>{$t('date_location.paragraph_1')}</p>
 	<p>{$t('date_location.paragraph_2')}</p>
 
