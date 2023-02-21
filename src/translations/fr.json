@@ -10,7 +10,17 @@
   "menu_agenda": "Programme",
   "menu_party": "Party",
   "menu_best_man_maid_of_honor": "Les témoins",
+
+  "hotels": {
+    "title": "Hébergements",
+    "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
+    "paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
+  
+  },
+
   "date_location" : {
+    "title": "Accès et lieu",
+
     "hero_1" : "Après 5 ans de vie commune, nous avons finalement décidé  de franchir le cap !",
     "hero_2" : "Afin de célébrer le début de notre nouvelle vie de couple marié, nous vous donnons rendez-vous le <span class=\"font-semibold\">12 août 2023</span> à Schliersee au <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum</span> à partir de 14:00. La cérémonie d’engagement démarrera à 14:30 et sera suivie par des festivités.",
     "hero_3" : "En espérant partager ce moment de joie avec vous, merci de nous faire part de votre présence d’ici le <span class=\"font-semibold\">15 mars</span> en complétant le formulaire suivant:"
@@ -72,10 +82,6 @@
     "paragraph_6": "Lorsque l'on vit sous le même toit depuis près de dix ans, on apprend évidemment à se connaître. Ainsi, Bosco connaît très bien les particularités, les forces, les faiblesses et les secrets de Sebi. Heureusement, il est non seulement digne de confiance mais aussi discret, ce qui fait de lui le témoin idéal."
    }
 },
-  "travel_hotels": {
-    "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
-    "paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
-  },
   "faq": {
     "q1": "Est-ce que le mariage aura lieu en cas de mauvais temps?",
     "a1" : "Oui, il aura lieu par tous les temps. Le Markus Wasmeier Freilichtmuseum offre un lieu de cérémonie couvert en cas de pluie. Par beau temps, la cérémonie se déroulera en plein air. Le repas du soir et la piste de danse se trouveront, quant à eux, dans la salle principale quelque soit le temps.",

@@ -1,13 +1,15 @@
-<h1 class="text-xl">// Travel & Hotels</h1>
+<article class="prose max-w-screen-lg mt-8">
 
-<h2 class="text-xl mt-4">Travel Information</h2>
+	
+	<h2>{@html $t('hotels.title')}</h2>
+	
 
 <p class="font-normal mt-8">
-	{$t('travel_hotels.paragraph_1')}
+	{$t('hotels.paragraph_1')}
 </p>
 
 <p class="font-normal mt-8">
-	{$t('travel_hotels.paragraph_2')}
+	{$t('hotels.paragraph_2')}
 </p>
 
 <div class="grid grid-cols-8">
@@ -28,19 +30,8 @@
     </div>
 </div>
 
-<p class="font-normal mt-8">
-	Here is an overview of hotels located near the ceremony venue. Due to high season, we were
-	unfortunately not able to reserve rooms for our guests. We therefore encourage you to book your
-	room as soon as possible directly with the hotels. Thank you :)
-</p>
 
-<p class="font-normal mt-8">
-	Here is an overview of hotels located near the ceremony venue. Due to high season, we were
-	unfortunately not able to reserve rooms for our guests. We therefore encourage you to book your
-	room as soon as possible directly with the hotels. Thank you :)
-</p>
-
-
+</article>
 
 <script lang="ts">
     const hotels = [
@@ -67,14 +58,6 @@
             'image': 'https://cdn.worldota.net/t/1024x768/content/15/37/1537e2f477ab37b3197494676809cad0a4864323.jpeg',
             'gmapsLink': 'https://goo.gl/maps/rjXWo96HHHnMX2UP7',
             'loc': { lat: 47.7331732, lng: 11.8640432 }
-        },
-        {
-            'title' : 'Hotel Tannerhof',
-            'url': 'www.natur-hotel-tannerhof.de',
-            'address' : 'Tannerhofstrasse 32 / 83735 Bayrischzell',
-            'image': 'https://lh3.googleusercontent.com/gps-proxy/ALm4wwkj3F7ajQAXTQ5bsl10RAK5Vm8JR1VN_Ht6NVXrje3smpBpvg6ee1blOTljXRW1tswN8ynSvf1Ba-VeHF2Yk8yvIlfdw1MVswc0qDGvGd3XmmU3X00kRzL2s4ERgLUiim2n_ex_1j-eTcN64fVHxbv_db_n9Cx25B7pR8G_GHriU8jmt_XVdvK1=w408-h272-k-no',
-            'gmapsLink': 'https://goo.gl/maps/y8Rg9ceEEdF7effE7',
-            'loc': { lat: 47.6730785, lng: 12.0205728 }
         },
         {
             'title' : 'Hotel Alpenrose Bayrischzell',
@@ -199,7 +182,7 @@
             map,
             icon: image
         });
-        
+
             const contentString =
     '<div id="content">' +
     '<div id="siteNotice">' +

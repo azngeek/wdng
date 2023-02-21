@@ -57,14 +57,11 @@
 
 </script>
 
-<!--
-<h1 class="text-xl"> // Date & Location</h1>
--->
+
 <article class="prose max-w-screen-lg mt-8">
 
-	<h2>Location</h2>
+	<h2>{@html $t('date_location.title')}</h2>
 	
-	<h3>{@html $t('date_location.header')}</h3>
 	<p>{$t('date_location.paragraph_1')}</p>
 	<p>{$t('date_location.paragraph_2')}</p>
 

@@ -79,7 +79,7 @@
                     <a href="/location">{$t('menu_date_location')}</a>
                 </li>
 				<li class="flex w-40 h-12 text-center pt-4">
-					<a href="/travel">{$t('menu_travel_hotels')}</a>
+					<a href="/hotels">{$t('menu_travel_hotels')}</a>
 				</li>
 				<li class="flex-initial w-40 h-12 text-center pt-4">
 					<a href="/bavaria">{$t('menu_visit_bavaria')}</a>
@@ -120,7 +120,7 @@
 			</div>
 
 			<div class="text-center mt-8">
-				<button on:click={() => goTo('travel')}>{$t('menu_travel_hotels')}</button>
+				<button on:click={() => goTo('hotels')}>{$t('menu_travel_hotels')}</button>
 			</div>
 
 			<div class="text-center mt-8">

@@ -10,10 +10,20 @@
 	"menu_faq": "FAQ",
 	"menu_agenda": "Programm",
 	"menu_best_man_maid_of_honor": "Trauzeugen",
+
+  "hotels": {
+    "title": "Übernachtung",
+
+    "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
+		"paragraph_2": "PS:  Une navette circulera à partir de 22:30 jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
+  },
+
 	"date_location": {
+
+
 		"hero_1": "Nach fünf Jahren gemeinsamen Lebens haben wir uns schließlich dazu entschlossen, den Schritt zu wagen!",
 		"hero_2": "Um den Beginn unseres neuen Lebens als verheiratetes Paar zu feiern, treffen wir uns am <span class=\"font-semibold\">12 August 2023</span> in Schliersee im <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum ab 14:00 Uhr</span>.",
-		"hero_3": "In der Hoffnung, diesen freudigen Moment mit Ihnen teilen zu können, bitten wir Sie, uns Ihre Anwesenheit bis zum <span class=\"font-semibold\">15. März mitzuteilen</span>, indem Sie das folgende Formular ausfüllen:",
+		"hero_3": "In der Hoffnung, diesen freudigen Moment mit Euch teilen zu können, bitten wir dich, uns Deine Anwesenheit bis zum <span class=\"font-semibold\">15. März mitzuteilen</span>, indem du das folgende Formular ausfüllst:",
 
 		"header": "Hier finden Sie einige Details zum Ort der Zeremonie und des Festes:",
 		"paragraph_1": "Und ja! Ihre Deutschkenntnisse sind immer noch sehr gut :) Die Hochzeit wird in einem Freilichtmuseum stattfinden.",
@@ -52,6 +62,8 @@
       "paragraph_1" : "Die Zugspitze, 1h45min vom Ort der Trauung entfernt, ist mit knappen 3000m der höchste Berg Deutschlands. Wer fit genug ist kann versuchen unsere Aufstiegszeit von gut 11 Stunden für knappe 22km (durch die Partnachklamm, Reintal und Zugspitzplatt) zu unterbieten. Deutlich entspannter als an einem Stück geht das aber auch mit einer Übernachtung auf der Knorrhütte (Anmeldung für die Übernachtung zwingend notwendig) oder auch in wenigen Minuten mit der Zugspitz Seilbahn. Das Panorama ist atemberaubend und die Besteigung der Zugspitze ist ein großes Abenteuer das ordentlich geplant sein will. Besser und familienfreundlicher für einen Tagesausflug wäre ein Besuch der Partnachklamm und dann die Seilbahnfahrt auf den Gipfel der Zugspitze mit Restaurant."
     }
   },
+
+
   "best_man_maid_of_honor": {
     "intro": "Und hier möchten wir euch unsere Trauzeugen vorstellen",
     "maid": {
@@ -76,10 +88,7 @@
       "paragraph_6": "Wenn man fast 10 Jahre unter einem Dach zusammen lebt, lernt man sich natürlich gut kennen. Darum kennt Bosco Sebis Eigenheiten, Stärken, Schwächen und Geheimnisse besonders gut. Zum Glück ist er nicht nur vertrauenswürdig sondern auch verschwiegen, was ihn zur idealen Besetzung als Trauzeugen macht."
     }
   },
-	"travel_hotels": {
-		"paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
-		"paragraph_2": "PS:  Une navette circulera à partir de minuit jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
-	},
+
   "faq": {
     "q1": "Wird die Hochzeit auch bei schlechtem Wetter stattfinden?",
     "a1" : "Natürlich! Das Markus Wasmeier Freilichtmuseum bietet einen überdachten Ort für die Trauung, falls es regnet. Bei gutem Wetter findet die Trauung im Freien statt. Das Abendessen findet in der Tenne statt - dort befindet sich auch die Tanzfläche.",

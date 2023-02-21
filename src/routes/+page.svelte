@@ -76,7 +76,7 @@
 	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">
 		<img 
 		class="md:w-5/5 mx-auto"
-		src="/costa_rica_bridge.jpg"
+		src="/costa_rica_wide.jpeg"
 		alt="costa rica bridge"
 		/>
 		<div class="md:w-5/5 mx-auto text-right text-xs mt-0">
