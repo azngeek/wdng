@@ -4,7 +4,7 @@
 	import '../app.css';
 	import Navbar from '$lib/components/Navbar.svelte';
 
-	import { locale, isLoading, init } from '$lib/i18n';
+	import { locale, isLoading, t } from '$lib/i18n';
 	import Divider from '$lib/components/Divider.svelte';
 	import '@fontsource/bodoni-moda/400-italic.css';
 
@@ -38,16 +38,18 @@
 
 {#if !$isLoading}
 	<div class="container max-w-screen-lg mx-auto">
-		<Navbar />
+
+		{#if isAuthenticated}
+			<Navbar />
+		{/if}
 
 
 		<!-- Content -->
 		<div class="mt-10 p-4 font-serif max-w-screen-lg">
 
 			{#if !isAuthenticated}
-
 			<div class="text-center">
-				<h2>Please enter password</h2>
+				<h2>{$t('password_enter')}</h2>
 				<input bind:value={password} on:input={checkPassword} class="shadow appearance-none border rounded mt-4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
 			</div>
 				  

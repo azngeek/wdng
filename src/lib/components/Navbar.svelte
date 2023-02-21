@@ -73,6 +73,7 @@
 			</div>
 		</div>
 		<div class="md:mt-6 pl-4">
+
 			<ul class="hidden md:flex justify-center h-12 nice-font">
 				<li class="flex w-40 h-12 text-center pt-4">
                     <a href="/location">{$t('menu_date_location')}</a>
