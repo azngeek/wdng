@@ -181,7 +181,7 @@
 	});
 </script>
 
-<article class="prose max-w-screen-lg mt-8">
+<div class="max-w-screen-lg mt-8">
 	<h2>{@html $t('hotels.title')}</h2>
 
 	<p class="font-normal mt-8">
@@ -194,10 +194,11 @@
 
 	<div class="grid grid-cols-8">
 		<div id="map" class="h-96 md:h-screen col-span-8 md:col-span-5 mt-4 overflow-auto" />
+        
 		<div class="h-96 md:h-screen col-span-8 md:col-span-3 bg-white mt-4 p-4 overflow-auto z-10">
 			{#each hotels as hotel, index}
 
-            <div class="flex justify-center mt-4">
+            <div class="flex justify-center mt-4 prose">
                 <div
                   class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                   <a on:click={() => {locationClicked(index)}}>
@@ -225,4 +226,4 @@
 			{/each}
 		</div>
 	</div>
-</article>
+</div>
