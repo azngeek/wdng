@@ -24,7 +24,7 @@
 		console.log(isAuthenticated);
 	});
 
-	let password = "1";
+	let password = "";
 
 	function checkPassword() {
 		if (password == 'CostaRica') {
