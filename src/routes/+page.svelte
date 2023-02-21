@@ -65,12 +65,11 @@
 <article class="prose max-w-screen-lg mt-8">
 	
 
-	<p>
-		{@html $t('date_location.hero_1')}	
-		{@html $t('date_location.hero_2')}
-	</p>
+	<p>{@html $t('date_location.hero_1')}</p>
+	<p>{@html $t('date_location.hero_2')}</p>
+	<p>{@html $t('date_location.hero_3')}</p>
 
-	<p>{@html $t('date_location.hero_3')} <a on:click={rsvp} class="font-bold"> RSVP </a></p>
+	<p>{@html $t('date_location.hero_4')} <a on:click={rsvp} class="font-bold"> RSVP </a></p>
 
 
 	<div class="mt-4 mt-8 text-center prose prose-img:rounded-xl max-w-screen-lg">

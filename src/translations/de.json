@@ -4,7 +4,7 @@
 	"sign_in": "Sign in",
 	"sign_up": "Sign up",
 	"welcome": "Willkommen",
-	"menu_date_location": "Wann und Wo",
+	"menu_date_location": "Location",
 	"menu_travel_hotels": "Übernachtung",
 	"menu_visit_bavaria": "Sehenswürdigkeiten",
 	"menu_faq": "FAQ",
@@ -13,22 +13,24 @@
 
   "hotels": {
     "title": "Übernachtung",
-
-    "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
-		"paragraph_2": "PS:  Une navette circulera à partir de 22:30 jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
+    "paragraph_1": "Hier findet Ihr eine Übersicht der Hotels, die sich in der näheren Umgebung des Schliersees  befinden. Da im August Urlaubshochsaison ist, war es uns leider nicht möglich, Hotelzimmerkontingente für alle Gäste bereitzustellen. Wir bitten Euch daher, Eure Zimmer so schnell wie möglich direkt beim Hotel Eurer Wahl zu buchen. Wir selbst werden im Arabella Hotel am Spitzingsee (ca. 10 min vom Schliersee) übernachten.",
+    "paragraph_2": "PS: Von ca. 22:30 Uhr bis spät in die Nacht wird ein Shuttlebus zu den umliegenden Hotels fahren und am Ender der Party, gegen 3 Uhr Morgens fährt auch ein Bus zurück nach München. Solltet Ihr hier mitfahren wollen dann gebt das bitte im Antwortformular mit an."
   },
 
 	"date_location": {
 
-		"hero_1": "Nach fünf Jahren gemeinsamen Lebens haben wir uns schließlich dazu entschlossen, den Schritt zu wagen!",
-		"hero_2": "Um den Beginn unseres neuen Lebens als verheiratetes Paar zu feiern, treffen wir uns am <span class=\"font-semibold\">12 August 2023</span> in Schliersee im <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum ab 14:00 Uhr</span>.",
-		"hero_3": "In der Hoffnung, diesen freudigen Moment mit Euch teilen zu können, bitten wir dich, uns Deine Anwesenheit bis zum <span class=\"font-semibold\">15. März mitzuteilen</span>, indem du das folgende Formular ausfüllst:",
+    "title": "Location",
 
-		"header": "Hier finden Sie einige Details zum Ort der Zeremonie und des Festes:",
-		"paragraph_1": "Und ja! Ihre Deutschkenntnisse sind immer noch sehr gut :) Die Hochzeit wird in einem Freilichtmuseum stattfinden.",
+		"hero_1": "Nachdem wir bereits zahlreiche gemeinsame Reisen unbeschadet überstanden haben und uns trotz eines mehrjährigen Zusammenlebens immer noch bestens verstehen, haben wir uns entschieden, das nächste Abenteuer in Angriff zu nehmen!",
+		"hero_2": "Um den Beginn unseres neuen Lebens als verheiratetes Paar gebührend zu feiern, laden wir Euch herzlich am <span class=\"font-semibold\">12 August 2023</span> in das <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum</span> am <span class=\"font-semibold\">Schliersee</span> ein!",
+		"hero_3": "Die freie Trauungszeremonie beginnt um 14:30,  das Hochzeitsfest geht erwartungsgemäß bis in die späte Nacht! ;-)",
+    "hero_4": "In der Hoffnung, diesen freudigen Moment mit möglichst vielen Familienmitgliedern, Freunden und Wegbegleitern teilen zu können, bitten wir Euch die Teilnahme <span class=\"font-semibold\">bis zum 15. März mitzuteilen</span>, hier zu bestätigen:",
+
+		"header": "Markus Wasmeier Freilichtmuseum:",
+		"paragraph_1": " ",
 		"paragraph_2": "Inspiriert von einem Freilichtmuseum in Lillehammer, Norwegen, hat der ehemalige deutsche Skifahrer Markus Wasmeier mehrere historische Gebäude im bayerischen Oberland nachgebaut und so einen hübschen bayerischen Weiler aus dem 18. Hier werden wir von 14:00 Uhr bis in die Nacht hinein feiern!"
 	},
-  
+
   "bavaria": {
     "intro": {
       "header": "Ein Besuch in Bayern",
@@ -112,7 +114,7 @@
     "a7" : "All unsere Freunde laden wir grundsätzlich ohne Kinder ein, damit wir Eure volle Aufmerksamkeit haben und die Party nicht mit der Schlafenszeit der Kinder endet. Familienangehörige des Brautpaares sind natürlich unabhängig vom Alter eingeladen. Ausnahme machen wir gerne für alle Gäste, die von weit her kommen und unsere Hochzeit mit einem Familienurlaub verbinden möchten. Wenn dies der Fall ist, informiert uns bitte im Voraus über das Formular (RSVP), damit wir eine Betreuung organisieren können.",
 
     "q8": "Ich möchte eine Rede halten oder das Brautpaar überraschen, an wen kann ich mich wenden?",
-    "a8" : "Wendet Euch am besten direkt an die Trauzeugen Bosco und Emilie (link to page).",
+    "a8" : "Wendet Euch am besten direkt an die Trauzeugen <br /> Emilie: +41 79 606 25 65 <br />Bosco: +49 160 938 298 15.",
 
     "q9": "Was wünscht sich das Brautpaar als Hochzeitsgeschenk?",
     "a9" : "Das schönste Geschenk ist Eure Anwesenheit, denn wir wissen, dass die Übernachtungen am Schliersee und die Anreise für einige Gäste bereits mit hohen Kosten verbunden sind. Wenn Ihr uns trotzdem etwas schenken möchtet, freuen wir uns über einen Beitrag zu unserer Hochzeitsreise, denn alles was wir für den Haushalt brauchen haben wir schon :-)"
