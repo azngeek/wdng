@@ -1,6 +1,15 @@
 <script lang="ts">
 	const hotels = [
 		{
+			title: 'Arabella Alpenhotel am Spitzingsee',
+			url: 'www.arabella-alpenhotel.com',
+			image:
+				'https://media-cdn.holidaycheck.com/w_768,h_432,c_fill,q_auto,f_auto/ugc/images/6c274d5d-0f50-4ceb-8ef9-a99328f71862',
+			gmapsLink: 'https://goo.gl/maps/taAwM8XugWTquX1U9',
+			loc: { lat: 47.6623269, lng: 11.8854182 },
+			address: 'Seeweg 7 / 83727 Spitzingsee'
+		},
+		{
 			title: 'Gästehaus Hubertus Hotel Garni',
 			url: 'www.hubertus-schliersee.de',
 			image:
@@ -93,16 +102,6 @@
 			gmapsLink: 'https://goo.gl/maps/HV55KY799fTC6ykd8',
 			loc: { lat: 47.7317105, lng: 11.8635859 },
 			address: 'Seestrasse 21/ 83727 Schliersee'
-		},
-
-		{
-			title: 'Arabella Alpenhotel am Spitzingsee',
-			url: 'www.arabella-alpenhotel.com',
-			image:
-				'https://media-cdn.holidaycheck.com/w_768,h_432,c_fill,q_auto,f_auto/ugc/images/6c274d5d-0f50-4ceb-8ef9-a99328f71862',
-			gmapsLink: 'https://goo.gl/maps/taAwM8XugWTquX1U9',
-			loc: { lat: 47.6623269, lng: 11.8854182 },
-			address: 'Seeweg 7 / 83727 Spitzingsee'
 		}
 	];
 
@@ -214,6 +213,8 @@
                       {index + 1} - {hotel.title}
                     </h5>
                 </a>
+                {#if index==0}<img src="./1430.svg" class="w-16"/>
+                {/if}
                     <p class="text-base text-neutral-600 dark:text-neutral-200">
                         {hotel.address}
                     </p>
