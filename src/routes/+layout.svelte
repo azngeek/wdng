@@ -50,7 +50,7 @@
 			{#if !isAuthenticated}
 			<div class="text-center">
 				<h2>{$t('password_enter')}</h2>
-				<input bind:value={password} on:input={checkPassword} class="shadow appearance-none border rounded mt-4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
+				<input bind:value={password} on:input={checkPassword} class="shadow appearance-none border rounded mt-4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Passwort">
 			</div>
 				  
 			{:else}
