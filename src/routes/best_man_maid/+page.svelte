@@ -18,31 +18,39 @@
     <p>{$t('best_man_maid_of_honor.maid.paragraph_7')}</p>
     <p>{$t('best_man_maid_of_honor.maid.paragraph_8')}</p>
 
-   
-    <div class="grid grid-cols-5">
-        <div class="col-start-1 col-span-2">
-          <img 
-          class="md:h-5/5 align-right"
-          src="/emilie1_cropped.jpg"
-          alt="emilie 1"
-          />
-        </div>
-        <div class="col-start-3 col-span-1">
-          <img 
-          class="md:h-5/5"
-          src="/emilie2.jpg"
-          alt="emilie 2"
-          />
-        </div>
-        <div class="col-start-4 col-span-1">
-          <img 
-          class="md:h-5/5"
-          src="/emilie4.jpeg"
-          alt="emilie 4"
-          />
+    <section class="overflow-hidden text-neutral-700">
+      <div class="container mx-auto px-5 py-2 ">
+        <div class="-m-1 flex flex-wrap md:-m-2">
+          <div class="flex w-2/4 flex-wrap">
+            <div class="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full object-cover object-center"
+                src="emilie1_cropped.jpg" />
+            </div>
+          </div>
+          <div class="flex w-1/4 flex-wrap">
+            <div class="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full object-cover object-center"
+                src="emilie4.jpeg" />
+            </div>
+          </div>
+          <div class="flex w-1/4 flex-wrap">
+            <div class="w-full p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block h-full w-full  object-cover object-center"
+                src="emilie2.jpg" />
+            </div>
+          </div>
+         
         </div>
       </div>
-
+    </section>
+   
+    <div class="mt-8">&nbsp;</div>
 
     <h3>{$t('best_man_maid_of_honor.man.header')}</h3>
     <p>{$t('best_man_maid_of_honor.man.paragraph_1')}</p>
