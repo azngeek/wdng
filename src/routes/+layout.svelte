@@ -8,6 +8,8 @@
 	import Divider from '$lib/components/Divider.svelte';
 	import '@fontsource/bodoni-moda/400-italic.css';
 
+	let isAuthenticated = false;
+
 	onMount(() => {
 		// Als Fallback setzen
 		let lang = localStorage.getItem('svelte-i18n-locale');
@@ -17,8 +19,22 @@
 		} else {
 			locale.set(lang);
 		}
+		
+		isAuthenticated = localStorage.getItem('authenticated');
+		console.log(isAuthenticated);
 	});
+
+	let password = "1";
+
+	function checkPassword() {
+		if (password == 'CostaRica') {
+			localStorage.setItem('authenticated', true);
+			isAuthenticated = true;
+		}
+	}
+
 </script>
+
 
 {#if !$isLoading}
 	<div class="container max-w-screen-lg mx-auto">
@@ -27,7 +43,17 @@
 
 		<!-- Content -->
 		<div class="mt-10 p-4 font-serif max-w-screen-lg">
-			<slot />
+
+			{#if !isAuthenticated}
+
+			<div class="text-center">
+				<h2>Please enter password</h2>
+				<input bind:value={password} on:input={checkPassword} class="shadow appearance-none border rounded mt-4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
+			</div>
+				  
+			{:else}
+				<slot />
+			{/if}
 		</div>
 
 		<!-- Footer -->
