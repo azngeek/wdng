@@ -23,8 +23,8 @@
     "location": "Lieu",
     "link": "Accès",
 
-    "arrival_car" : "Je viens en voiture et souhaite savoir où me garer: <a href=\"/faq\">FAQ</a>",
-    "arrival_train" : "Je viens en transport en commun, voir détails <a href=\"/faq\">ici</a>. Un bus sera organisé en fin de soirée pour te ramener à Munich centre.",
+    "arrival_car" : "Je viens en voiture et souhaite savoir où me garer: <a href=\"/faq#3\">FAQ</a>",
+    "arrival_train" : "Je viens en transport en commun, voir détails <a href=\"/faq#4\">ici</a>. Un bus sera organisé en fin de soirée pour te ramener à Munich centre.",
 
     "hero_1" : "Après 5 ans de vie commune, nous avons finalement décidé  de franchir le cap !",
     "hero_2" : "Afin de célébrer le début de notre nouvelle vie de couple marié, nous vous donnons rendez-vous le <span class=\"font-semibold\">12 août 2023</span> à Schliersee au <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum</span> à partir de <span class=\"font-semibold\">14:00</span>.",
