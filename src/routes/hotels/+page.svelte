@@ -182,10 +182,10 @@
 </script>
 
 <div class="max-w-screen-lg mt-8">
-	<h2>{@html $t('hotels.title')}</h2>
+	<h2 class="font-bold text-2xl">{@html $t('hotels.title')}</h2>
 
 	<p class="font-normal mt-8">
-		{$t('hotels.paragraph_1')}
+		{@html $t('hotels.paragraph_1')}
 	</p>
 
 	<p class="font-normal mt-8">

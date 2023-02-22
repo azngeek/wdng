@@ -78,14 +78,22 @@
 		</div>
 	</div>
 
-	<h3>Location</h3>
+	<h3>{$t('date_location.location')}</h3>
 
 	<p class="mt-4">
 		🔗  <a href="https://www.wasmeier.de/">https://www.wasmeier.de</a>
 	</p>
-	
+
+	<h3>{$t('date_location.link')}</h3>
+
 	<p>
-		📌  <a href="https://www.google.com/maps/place/Markus+Wasmeier+Freilichtmuseum/@47.7063905,11.8763645,17z/data=!4m6!3m5!1s0x479d8a1c761e2605:0xb1f5d76bb5022bc8!8m2!3d47.7063478!4d11.8763233!10e1?hl=en-CH">How to get there</a>
+		<img src="/car-svgrepo-com.svg" class="w-8 inline m-0 mr-4" />{@html $t('date_location.arrival_car')}
+		<br />
+		<img src="/train-svgrepo-com.svg" class="w-8 inline m-0 mr-4" />{@html $t('date_location.arrival_train')}
+	</p>
+
+	<p>
+		📌  <a href="https://www.google.com/maps/place/Markus+Wasmeier+Freilichtmuseum/@47.7063905,11.8763645,17z/data=!4m6!3m5!1s0x479d8a1c761e2605:0xb1f5d76bb5022bc8!8m2!3d47.7063478!4d11.8763233!10e1?hl=en-CH">Google Maps</a>
 	</p>
 	
 	<div id="map" class="max-w-screen-lg h-96 mt-4 z-0" />

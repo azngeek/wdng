@@ -3,7 +3,7 @@
   "page_title": "Page title",
   "sign_in": "Sign in",
   "welcome": "Accueillir",
-  "menu_date_location": "Accès et lieu",
+  "menu_date_location": "Lieu et accès",
   "menu_travel_hotels": "Hébergements",
   "menu_visit_bavaria": "Visiter la Bavière",
   "menu_faq": "FAQ",
@@ -13,16 +13,21 @@
 
   "hotels": {
     "title": "Hébergements",
-    "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :)",
+    "paragraph_1": "Voici un aperçu des hôtels se trouvant à proximité du lieu de cérémonie. Compte tenu de la haute saison, nous ne sommes malheureusement pas parvenus à réserver de contingents pour nos invités. Nous vous invitons donc à réserver votre chambre, au plus vite, directement auprès des hôtels. Merci :) <br/> Sebi et moi logerons à l'hôtel Arabella au Spitzingsee (à environ 10 min du Schliersee).",
     "paragraph_2": "PS: Une navette circulera à partir de 22:30 jusqu'à tard dans la nuit pour vous ramener aux hôtels environnants. Veuillez nous informer si vous réservez un hôtel qui ne figure pas sur la liste."
   
   },
 
   "date_location" : {
-    "title": "Accès et lieu",
+    "title": "Lieu et accès",
+    "location": "Lieu",
+    "link": "Accès",
+
+    "arrival_car" : "Je viens en voiture et souhaite savoir où me garer: <a href=\"/faq\">FAQ</a>",
+    "arrival_train" : "Je viens en transport en commun, voir détails <a href=\"/faq\">ici</a>. Un bus sera organisé en fin de soirée pour te ramener à Munich centre.",
 
     "hero_1" : "Après 5 ans de vie commune, nous avons finalement décidé  de franchir le cap !",
-    "hero_2" : "Afin de célébrer le début de notre nouvelle vie de couple marié, nous vous donnons rendez-vous le <span class=\"font-semibold\">12 août 2023</span> à Schliersee au <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum</span> à partir de 14:00.",
+    "hero_2" : "Afin de célébrer le début de notre nouvelle vie de couple marié, nous vous donnons rendez-vous le <span class=\"font-semibold\">12 août 2023</span> à Schliersee au <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum</span> à partir de <span class=\"font-semibold\">14:00</span>.",
     "hero_3": "La cérémonie d’engagement démarrera à 14:30 et sera suivie par des festivités.",
     "hero_4" : "En espérant partager ce moment de joie avec vous, merci de nous faire part de votre présence d’ici le <span class=\"font-semibold\">15 mars</span> en complétant le formulaire suivant:",
 
@@ -67,26 +72,26 @@
 "best_man_maid_of_honor": {
   "intro": "Ici,nos témoins sont à l'honneur.",
   "maid": {
-    "header": "Émilie: Témoin de la mariée.",
+    "header": "Emilie: Témoin de la mariée.",
     "paragraph_1": "Soeur de 4 ans son aînée, Emilie a été la première personne, après ses parents, à faire la connaissance d’Amandine. Elle est ainsi devenue, dès les premiers instants, une source d’inspiration pour sa petite sœur.",
     "paragraph_2": "Débrouille, aventurière, indépendante et loquace, Emilie a toujours été prête à sortir des sentiers battus et a ainsi ouvert de nombreux chemins à sa sœur qui lui en est encore aujourd’hui très reconnaissante.",
     "paragraph_3": "A 11 ans, Émilie prenait l’avion toute seule pour aller apprendre l’Allemand à Berchtesgaden en Bavière. Emilie a dès son plus jeune âge exprimé un grand talent pour les langues étrangères. A 18 ans elle parlait couramment l’allemand, l’anglais et l’italien. Plus tard, Emilie a continué sur la voie des langues vivantes en étudiant la littérature russe et allemande à la Faculté des Lettres de Genève.",
     "paragraph_4": "Lors de ses années de jeune adulte, elle a pu assouvir ses besoins de découvertes en partant vivre un an à Saint-Pétersbourg,  plus tard à Irkoutsk en Sibérie, puis au Cambodge et au Laos. Son profil international lui a permis de faire carrière dans le milieu du marketing et de l’événementiel.",
     "paragraph_5": "Bien qu'Emilie soit une aventurière née, elle a toujours su donner la priorité à sa famille. Maman d’une petite fille de deux ans, elle a partagé de supers conseils avec sa sœur tout au long de sa grossesse et a notamment fourni des kilos d'habits et de livres à Louis.",
-    "paragraph_6": "Emilie partage aussi des souvenirs précieux avec sa petite sœur. Elles ont passé leur enfance et adolescence ensemble à cheval, construisant des sauts d’obstacles, galopant à travers champs ou même se laissant tirer à ski de fond par leur poney. Casse-cou, Emilie est toujours parvenue à entraîner sa sœur dans ses périples",
+    "paragraph_6": "Emilie partage aussi des souvenirs précieux avec sa petite sœur. Elles ont passé leur enfance et adolescence ensemble à cheval, construisant des sauts d’obstacles, galopant à travers champs ou même se laissant tirer à ski de fond par leur poney. Casse-cou, Emilie est toujours parvenue à entraîner sa sœur dans ses périples.",
     "paragraph_7": "Emilie et Amandine ont également fait de beaux voyages en famille en Afrique, Asie, Amérique et Europe ou alors en Suisse, dans la ferme de leurs grand-parents. Elles y ont passé de longs moments à jouer aux cartes et aux jeux de société. Emilie était particulièrement douée au “tas de merde”, un jeu de carte dont le but est d’être le premier à taper au centre de la table une fois avoir obtenu une famille de carte. Avec un bras plâtré à la suite d'un accident de vélo, elle arrivait particulièrement bien à s’imposer et à gagner à chaque fois; ce qui énervait et faisait beaucoup rire sa petite sœur - qui voudrait se battre avec un bras plâtré?",
     "paragraph_8": "Leurs souvenirs communs et la  personnalité vive d'Emilie, font d’elle, sans aucun doute, la témoin idéale."
  }
   ,
   "man": {
     "header": "Bosco: Témoin du marié.",
-    "paragraph_1": "Lorsque Bosco et Sebi se sont rencontrés pour la première fois, Bosco n'était pas particulièrement intéressé à faire la connaissance de Sebi. Il n'était que le pote d’un pote qu’il voyait occasionnellement à des soirées - tout a changé au moment où Bosco a découvert le talent de Sebi pour les jeux vidéo (compétences encore exceptionnelles aujourd'hui). Pendant des années, ils ont passé de nombreux week-ends à faire la fête entre amis, à jouer ensemble au basket ou encore à battre des records aux jeux vidéo.",
-    "paragraph_2": "Le jour où Sebi était à la recherche d’un colocataire, Bosco a immédiatement été partant pour emménager avec lui dans son appartement de Treffauerstraße. Aujourd'hui encore, ils vivent sous le même toit - Bosco à l'étage, Sebi, Amandine et Louis au rez-de-chaussée.",
-    "paragraph_3": "Lors de leur période de colocation, Sebi et Bosco n'ont pas seulement organisé quelques fêtes endiablées, ils ont aussi fait de nombreux voyages ensemble. Ils sont passés par les États-Unis, la Thaïlande, l'Indonésie, Cuba et les Émirats arabes unis, sans oublier de nombreux citytrips. Ils ont aussi fait, de temps en temps, des choses utiles - par exemple des études - et ont ainsi trouvé leur voie vers l'indépendance. Bosco dirige aujourd'hui sa propre entreprise d'informatique, qui connaît un grand succès, et il leur arrive encore souvent de parler business ou de leur quotidien autour d'une petite boisson rafraîchissante.",
-    "paragraph_4": "Bosco est en outre un sportif de force, très motivé et passionné. Il a essayé pendant de nombreuses années d'inclure Sebi dans son programme d'entraînement rigoureux. Cela a conduit une fois Sebi à vomir pendant une séance matinale - depuis, Sebi préfère se concentrer sur les sports d'endurance comme la course à pied ou le VTT; il parvient là, plus ou moins, à suivre le rythme de Bosco.",
-    "paragraph_5": "Comme les sportifs de force ont besoin d'énergie, Bosco a souvent cuisiné, à l'époque de la colocation, des kilos de bolognaise ou de curry thaï. Il a toujours insisté sur le fait que les plats devaient reposer au moins 24 heures pour que les saveurs aient le temps de s'installer. Malheureusement, il arrivait que Sebi arrive trop tard à la maison et Bosco avait, entre-temps, presque tout mangé sans rien lui laisser!",
+    "paragraph_1": "Lorsque Bosco et Sebi se sont rencontrés pour la première fois, Bosco n'était pas particulièrement intéressé à faire la connaissance de Sebi. Il n'était que le pote d’un pote qu’il voyait occasionnellement à des soirées. Tout a changé au moment où Bosco a découvert le talent de Sebi pour les jeux vidéo (compétences encore exceptionnelles aujourd'hui). Pendant des années, ils ont passé de nombreux week-ends à faire la fête entre amis, à jouer ensemble au basket ou Fencore à battre des records aux jeux vidéo.",
+    "paragraph_2": "Quand Sebi était à la recherche d’un colocataire, Bosco a été immédiatement partant pour emménager avec lui dans son appartement de Treffauerstraße. Aujourd'hui encore, ils vivent sous le même toit - Bosco à l'étage, Sebi, Amandine et Louis au rez-de-chaussée.",
+    "paragraph_3": "Lors de leur période de colocation, Sebi et Bosco n'ont pas seulement organisé quelques fêtes endiablées, ils ont aussi fait de nombreux voyages ensemble. Ils sont passés par les États-Unis, la Thaïlande, l'Indonésie, Cuba et les Émirats arabes unis, sans oublier de nombreux city trips. Ils ont aussi fait, de temps en temps, des choses utiles - par exemple des études - et ont ainsi trouvé leur voie vers l'indépendance. Bosco dirige aujourd'hui sa propre entreprise d'informatique, qui connaît un grand succès, et il leur arrive encore souvent de parler business ou de leur quotidien autour d'une petite boisson rafraîchissante.",
+    "paragraph_4": "Bosco est en outre un sportif de force, très motivé et passionné. Il a essayé pendant de nombreuses années d'inclure Sebi dans son programme d'entraînement rigoureux. Cela a conduit une fois Sebi à vomir pendant une séance de sport matinale - depuis, Sebi préfère se concentrer sur les sports d'endurance comme la course à pied ou le VTT; il parvient là, plus ou moins, à suivre le rythme de Bosco.",
+    "paragraph_5": "Comme les sportifs de force ont besoin d'énergie, Bosco a souvent cuisiné, à l'époque de la colocation, des kilos de bolognaise ou de curry thaï. Il a toujours insisté sur le fait que les plats devaient reposer au moins 24 heures pour que les saveurs aient le temps de s'installer. Malheureusement, il arrivait souvent que Sebi arrive trop tard à la maison et Bosco avait, entre-temps, presque tout mangé sans rien lui laisser!",
     "paragraph_6": "Lorsque l'on vit sous le même toit depuis près de dix ans, on apprend évidemment à se connaître. Ainsi, Bosco connaît très bien les particularités, les forces, les faiblesses et les secrets de Sebi. Heureusement, il est non seulement digne de confiance mais aussi discret, ce qui fait de lui le témoin idéal."
-   }
+  }
 },
   "faq": {
     "q1": "Est-ce que le mariage aura lieu en cas de mauvais temps?",

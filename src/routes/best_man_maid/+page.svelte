@@ -29,7 +29,7 @@
                 src="emilie1_cropped.jpg" />
             </div>
           </div>
-          <div class="flex w-1/4 flex-wrap">
+          <div class="flex w-2/4 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -37,15 +37,6 @@
                 src="emilie4.jpeg" />
             </div>
           </div>
-          <div class="flex w-1/4 flex-wrap">
-            <div class="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full  object-cover object-center"
-                src="emilie2.jpg" />
-            </div>
-          </div>
-         
         </div>
       </div>
     </section>

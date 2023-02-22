@@ -20,6 +20,11 @@
 	"date_location": {
 
     "title": "Location",
+    "location": "Ort",
+    "link": "Wie man hinkommt",
+
+    "arrival_car" : "Ich komme mit dem Auto und möchte wissen, wo ich parken kann: <a href=\"/faq\">FAQ</a>",
+    "arrival_train" : "Ich komme mit öffentlichen Verkehrsmitteln, Details dazu findest du <a href=\"/faq\">hier</a>. Am späten Abend wird ein Bus organisiert, der dich zurück ins Münchner Zentrum bringt.",
 
 		"hero_1": "Nachdem wir bereits zahlreiche gemeinsame Reisen unbeschadet überstanden haben und uns trotz eines mehrjährigen Zusammenlebens immer noch bestens verstehen, haben wir uns entschieden, das nächste Abenteuer in Angriff zu nehmen!",
 		"hero_2": "Um den Beginn unseres neuen Lebens als verheiratetes Paar gebührend zu feiern, laden wir Euch herzlich am <span class=\"font-semibold\">12 August 2023</span> in das <span class=\"font-semibold\">Markus Wasmeier Freilichtmuseum</span> am <span class=\"font-semibold\">Schliersee</span> ein!",
