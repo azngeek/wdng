@@ -4,7 +4,7 @@
 	"sign_in": "Sign in",
 	"sign_up": "Sign up",
 	"welcome": "Willkommen",
-	"menu_date_location": "Location",
+	"menu_date_location": "Anfahrt",
 	"menu_travel_hotels": "Übernachtung",
 	"menu_visit_bavaria": "Sehenswürdigkeiten",
 	"menu_faq": "FAQ",
@@ -19,7 +19,7 @@
 
 	"date_location": {
 
-    "title": "Location",
+    "title": "Anfahrt",
     "location": "Ort",
     "link": "Wie man hinkommt",
 
