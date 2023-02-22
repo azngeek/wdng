@@ -34,7 +34,7 @@
               <img
                 alt="gallery"
                 class="block h-full w-full object-cover object-center"
-                src="emilie4.jpeg" />
+                src="emilie4_cropped.jpeg" />
             </div>
           </div>
         </div>
