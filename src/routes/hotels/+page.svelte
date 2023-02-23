@@ -143,14 +143,13 @@
 			});
 
 			const image = './wedding-couple.png';
-			const beachMarker = new google.maps.Marker({
+			new google.maps.Marker({
 				position: loc,
 				map,
 				icon: image
 			});
 
-			const contentString =
-				'<div id="content">' + '<div id="siteNotice">' + '</div>' + 'blbla' + '</div>' + '</div>';
+
 
 			hotels.forEach((hotel, index) => {
 				if (hotel.hasOwnProperty('loc')) {
@@ -160,6 +159,14 @@
 						label: (index + 1).toString(),
 						title: 'Hello'
 					});
+
+					const contentString = `
+					<div>${hotel.title}</div>
+					<br />
+					<div><a href="${hotel.url}">${hotel.url}</div>
+					<div><a href="${hotel.gmapsLink}">Google Maps Link</div>
+					`;
+
 
 					var infowindow = new google.maps.InfoWindow({
 						content: contentString,
