@@ -226,7 +226,7 @@
                     <p class="text-base text-neutral-600 dark:text-neutral-200">
                         {hotel.address}
                     </p>
-                    <p><a class="text-normal">{hotel.url}</a> | <a href={hotel.gmapsLink} target="_blank">Google Link</a></p>
+                    <p><a class="text-normal" href="{hotel.url}">{hotel.url}</a> | <a href={hotel.gmapsLink} target="_blank">Google Link</a></p>
                   </div>
                 </div>
               </div>
