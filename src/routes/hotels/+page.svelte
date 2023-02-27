@@ -163,7 +163,7 @@
 					const contentString = `
 					<div>${hotel.title}</div>
 					<br />
-					<div><a href="${hotel.url}">${hotel.url}</div>
+					<div><a href="https://${hotel.url}">${hotel.url}</div>
 					<div><a href="${hotel.gmapsLink}">Google Maps Link</div>
 					`;
 
