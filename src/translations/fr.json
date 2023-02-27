@@ -23,7 +23,7 @@
     "location": "Lieu",
     "link": "Accès",
 
-    "arrival_car" : "Je viens en voiture et souhaite savoir où me garer: <a href=\"/faq#3\">FAQ</a>",
+    "arrival_car" : "Je viens en voiture et souhaite savoir où me garer: <a href=\"/faq#2\">FAQ</a>",
     "arrival_train" : "Je viens en transport en commun, voir détails <a href=\"/faq#4\">ici</a>. Un bus sera organisé en fin de soirée pour te ramener à Munich centre.",
 
     "hero_1" : "Après 5 ans de vie commune, nous avons finalement décidé  de franchir le cap !",
@@ -70,7 +70,7 @@
   }
 },
 "best_man_maid_of_honor": {
-  "intro": "Ici,nos témoins sont à l'honneur.",
+  "intro": "Ici, nos témoins sont à l'honneur.",
   "maid": {
     "header": "Emilie: Témoin de la mariée.",
     "paragraph_1": "Soeur de 4 ans son aînée, Emilie a été la première personne, après ses parents, à faire la connaissance d’Amandine. Elle est ainsi devenue, dès les premiers instants, une source d’inspiration pour sa petite sœur.",
