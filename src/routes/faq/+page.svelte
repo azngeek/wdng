@@ -1,5 +1,30 @@
 <script lang="ts">
 	import { t, locale } from '$lib/i18n';
+	import { onMount } from 'svelte';
+
+	const isToday = (dateToCheck: Date) => {
+		// Get today's date
+		const today = new Date();
+		
+		// Compare the components of the dateToCheck with today's date
+		const isSameDate =
+			dateToCheck.getDate() === today.getDate() &&
+			dateToCheck.getMonth() === today.getMonth() &&
+			dateToCheck.getFullYear() === today.getFullYear();
+		
+		// Return true if the dateToCheck is today, otherwise return false
+		return isSameDate;
+	};
+
+	let showPrank = false;
+
+	onMount(() => {
+
+		if (isToday(new Date('08-07-2023'))) {
+			showPrank = true;
+		}
+	})
+
 </script>
 
 <article class="prose max-w-screen-lg mt-8">
@@ -37,4 +62,9 @@
 
 	<h3><a id="9" class="no-underline">9)</a> {$t('faq.q9')}</h3>
 	<p>{$t('faq.a9')}</p>
+
+	{#if showPrank}
+	<h3>10) Sebis Secret</h3>
+	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Do not click!</a>
+	{/if}
 </article>
