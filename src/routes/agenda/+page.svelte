@@ -41,14 +41,14 @@
 			</div>
 		</div>
 
-		<!-- 15:15 -->
+		<!-- 15:30 -->
 		<div class="mb-8 mt-8 md:flex md:justify-between items-center ">
 			<div class="grid grid-cols-12 shadow md:px-6 md:py-2 min-w-full">
 				<div class="col-span-3 md:col-span-2 text-gray-800">
 					<img src="./1515.svg" class="w-16 pt-6 pl-2"/>
 				</div>
 				<div class="col-span-9 md:col-span-10 ">
-					<h3 class="mb-3 font-bold text-gray-800 text-xl">15:15</h3>
+					<h3 class="mb-3 font-bold text-gray-800 text-xl">15:30</h3>
 					<p class="text-sm text-gray-900 text-opacity-100">
 						{$t('agenda.agenda_1515')}
 					</p>
@@ -56,14 +56,14 @@
 			</div>
 		</div>
 
-		<!-- 17:00 -->
+		<!-- 16:30 -->
 		<div class="mb-8 mt-8 md:flex md:justify-between items-center ">
 			<div class="grid grid-cols-12 shadow md:px-6 md:py-2 min-w-full">
 				<div class="col-span-3 md:col-span-2 text-gray-800">
 					<img src="./1700.svg" class="w-16 pt-6 pl-2"/>
 				</div>
 				<div class="col-span-9 md:col-span-10 ">
-					<h3 class="mb-3 font-bold text-gray-800 text-xl">17:00</h3>
+					<h3 class="mb-3 font-bold text-gray-800 text-xl">16:30</h3>
 					<p class="text-sm text-gray-900 text-opacity-100">
 						{$t('agenda.agenda_1700')}
 					</p>
@@ -71,14 +71,14 @@
 			</div>
 		</div>
 
-		<!-- 17:30 -->
+		<!-- 17:15 -->
 		<div class="mb-8 mt-8 md:flex md:justify-between items-center ">
 			<div class="grid grid-cols-12 shadow md:px-6 md:py-2 min-w-full">
 				<div class="col-span-3 md:col-span-2 text-gray-800">
 					<img src="./1730.svg" class="w-16 pt-6 pl-2"/>
 				</div>
 				<div class="col-span-9 md:col-span-10 ">
-					<h3 class="mb-3 font-bold text-gray-800 text-xl">17:30</h3>
+					<h3 class="mb-3 font-bold text-gray-800 text-xl">17:15</h3>
 					<p class="text-sm text-gray-900 text-opacity-100">
 						{$t('agenda.agenda_1730')}
 					</p>
