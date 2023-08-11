@@ -2,25 +2,25 @@
 	import { t, locale } from '$lib/i18n';
 	import { onMount } from 'svelte';
 
-	const isToday = (dateToCheck: Date) => {
+	const isToday = (desiredDateTime: Date) => {
 		// Get today's date
-		const today = new Date();
+        const currentDateTime = new Date();
+        console.log(currentDateTime);
 		
 		// Compare the components of the dateToCheck with today's date
-		const isSameDate =
-			dateToCheck.getDate() === today.getDate() &&
-			dateToCheck.getMonth() === today.getMonth() &&
-			dateToCheck.getFullYear() === today.getFullYear();
-		
-		// Return true if the dateToCheck is today, otherwise return false
-		return isSameDate;
+		if (currentDateTime > desiredDateTime) {
+            return true;
+        }
+        return false;
 	};
 
 	let showPrank = false;
 
 	onMount(() => {
 
-		if (isToday(new Date('08-07-2023'))) {
+        const desiredDateTime = new Date('2023-08-12T18:00:00'); // Year-Month-DayTHours:Minutes:Seconds
+
+		if (isToday(desiredDateTime)) {
 			showPrank = true;
 		}
 	})
@@ -64,7 +64,7 @@
 	<p>{$t('faq.a9')}</p>
 
 	{#if showPrank}
-	<h3>10) Sebis Secret</h3>
-	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Do not click!</a>
+	<h3>10) Sebis Secrets!</h3>
+	<a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">🚨 Do not click! 🚨</a>
 	{/if}
 </article>
