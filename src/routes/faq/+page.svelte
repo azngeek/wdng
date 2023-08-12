@@ -64,6 +64,18 @@
 	<p>{$t('faq.a9')}</p>
 
 	{#if showPrank}
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
 	<h3>10) Sebis Secrets!</h3>
 	<a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">🚨 Do not click! 🚨</a>
 	{/if}
